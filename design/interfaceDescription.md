@@ -1,6 +1,6 @@
 This document will include information about the interface of the game. It is assumed that notes in this document will be for version 1.0 of the game, unless otherwise noted.
 
-end/begin of a given screen will be denoted by a row of ||||.
+end/begin of a given screen will be denoted by a horizontal rule.
 ## Command Line Interface:
 ---
 ```
@@ -10,7 +10,7 @@ Greeting Lord Bron Artho.
 
 
 Availible Commands:
-1- recieve updates 2- view messages 3- Engager with crew  4- Manage Crew
+1- recieve updates 2- view messages 3- Engage with crew  4- Manage Crew  5- Ship
 > recieve updates  
 ```
 ---
