@@ -8,7 +8,7 @@ A Rogue Trader will also include a list of skills that represent a character’s
 As a character conducts actions they will acrue different ammounts of expierence. When they have acrued enough enough expierence they will 'level up', meaning that they will be able to enhance their characters capability through new skills, new talents, and enhancements to their core characteristics.
 
 ---
-###example:
+### example:
 When Ziel started the Cargo Delivery job, they had 6,870 expierence. Upon completing the job they gained 250 expierence bringing them to 7,120 total expierence earned and to level 2. This status would enable the "Advancement" option on the sreen.
 
 ### Character Notes
