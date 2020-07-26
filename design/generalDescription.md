@@ -6,7 +6,7 @@ A character is a theoretical construct built out of a series of 9 integer values
 These characteristics are used to determine whether a character passes or fails at various tasks. If a character needs to carry something, their Strength characteristic will be used to determine their ability to do so, while if they attempting to perform a sniper attack their ballistic skill would be used. 
 A Rogue Trader will also include a list of skills that represent a character’s adeptness with a given skill. A given skill is tested on a specified characteristic (an effort at an acrobatic feat test on the agility, while awareness tests on the perception for instance). Skills come in 4 “levels”: basic, trained, skilled and mastered. A basic skill tests on the required characteristic as if it were ½ of its actual value. A trained skill tests on the actual value of the of the characteristic, a skilled skill tests on the characteristic as if it were 10% higher than its actual value while a mastered skill tests with a 20% bonus.  A Character can gain proficiency in each talent, advancing the talent from ‘basic’ to trained to skilled to mastered. 
 
-###Character Notes:
+### Character Notes
 Primary Characteristics – these are integers ranging from 0 to 99.
 1* WeaponSkill 
    * Represents the character’s proficiency when using melee weapons.
