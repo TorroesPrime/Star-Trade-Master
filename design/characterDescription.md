@@ -5,7 +5,7 @@ A Rogue Trader will also include a list of skills that represent a character’s
 
 ### Character Notes
 Primary Characteristics – these are integers ranging from 0 to 99.
-1- WeaponSkill 
+1 - WeaponSkill 
    * Represents the character’s proficiency when using melee weapons.
 2* BallisticSkill
    .Represents the character’s proficiency when using ranged weapons.
