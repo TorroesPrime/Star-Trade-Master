@@ -8,21 +8,21 @@ A Rogue Trader will also include a list of skills that represent a character’s
 
 ###Character Notes:
 Primary Characteristics – these are integers ranging from 0 to 99.
-1- WeaponSkill 
-  - Represents the character’s proficiency when using melee weapons.
-2- BallisticSkill
-   - Represents the character’s proficiency when using ranged weapons.
-1	Strength
+1. WeaponSkill 
+   .Represents the character’s proficiency when using melee weapons.
+2. BallisticSkill
+   .Represents the character’s proficiency when using ranged weapons.
+3.	Strength
 a.	Represents the character’s physical strength
-2	toughness
+4.	toughness
 a.	Represents the character’s ability to withstand an injury.
-3	Agility
+5.	Agility
 a.	Represents the character’s agility and over all running speed.
-4	Intelligence
+6.	Intelligence
 a.	Represents the character’s over all intelligence and ability to learn new material.
-5	Perception
+7.	Perception
 a.	Represents the character’s over all ability to see and notice things in the world.
-6	Willpower
+8.	Willpower
 a.	Represents the character’s ability to withstand mental trauma and assaults.
-7	Charisma
+9.	Charisma
 a.	Represents the character’s general ability to interact with other people.
