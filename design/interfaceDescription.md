@@ -3,7 +3,7 @@ This document will include information about the interface of the game. It is as
 end/begin of a given screen will be denoted by a row of ||||.
 ## Command Line Interface:
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
+```
 Current Date: M39.4.5110 Ship-board time: 19:49:35
 
 Greeting Lord Bron Artho. 
@@ -12,6 +12,7 @@ Greeting Lord Bron Artho.
 Availible Commands:
 1- recieve updates 2- view messages 3- Engager with crew  4- Manage Crew
 > recieve updates  
+```
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 Current Date: M39.4.5110  Ship-board time: 19:51:42
