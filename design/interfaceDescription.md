@@ -34,7 +34,9 @@ Current Date: M39.4.5110 Ship-board time: 19:51:59
 	Message Source: Aestaban        Subejct: Port Acceleration Control Module
 
 	Message Content:
-		Mi'lord, The port Acceleration Control Module repairs have been completed. The forward Access port to hall J-25 will be inaccessible for the next 4 days while tertiary systems are brought back online. 19 deaths reported during repair efforts.
+		Mi'lord, The port Acceleration Control Module repairs have been completed.
+The forward Access port to hall J-25 will be inaccessible for the next 4 days while
+tertiary systems are brought back online. 19 deaths reported during repair efforts.
 
 Availibe Commands:
 1- Delete:  2- Aknowledge:  3- Respond:  4- Forward: 5- end
