@@ -1,0 +1,1 @@
+this folder will contain UML diagrams, Use Case senarios, and other design documentation.
