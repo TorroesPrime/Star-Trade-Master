@@ -10,20 +10,20 @@ At this point the project is in conceptualization. While I have ideas in my head
 # Quick information Access 
 1-[General Description](https://github.com/TorroesPrime/roguetrader/blob/master/design/generalDescription.md)
 
-    A general overview of what the game is intended to be and future plans for it.
+A general overview of what the game is intended to be and future plans for it.
 
 2- [Command Line Interface](https://github.com/TorroesPrime/roguetrader/blob/master/design/interfaceDescription.md)
 
-	A combination of notes and design throughts about how the interface will look, be laid out, and function.
+A combination of notes and design throughts about how the interface will look, be laid out, and function.
 
 3- [Character class](https://github.com/TorroesPrime/blob/master/design/characterDescription.md)
 
-	Information about the character, and the class derived from it.
+Information about the character, and the class derived from it.
 
 4- [Mission Notes](https://github.com/TorroesPrime/blob/master/design/characterDescription.md)
 
-	Notes about the different types of missions that the player can under take in the game.
+Notes about the different types of missions that the player can under take in the game.
 
 5- [Screens](https://github.com/TorroesPrime/roguetrader/blob/master/design/screenDescription.md)
 
-	Information and notes regarding the screens.
+Information and notes regarding the screens.
