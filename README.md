@@ -1,6 +1,9 @@
 # Project overview
 This project is an outgrowth of a Zork clone I helped build for class. Using a CLI system similar to Zork, this game will permit a player to take on the role of a "Rogue Trader", an intergalactic free trader in the midst of the 41st mellenium who is seeking their fortune and glory. 
 
+# technologies used:
+* Primary Programming language: Python 3.8
+
 # Current status
 **Prelimary write up**
 
