@@ -13,7 +13,8 @@ This will layout the screen interfaces for version 1.0 of the game. Screens are 
 |                                                                                       |
 |                                                                                       |
 |                                                                                       | 
-|                                                                                       |                            |                                                                                       |
+|                                                                                       |
+|                                                                                       |
 |                                                                                       |
 |                                                                                       |
 |                                                                                       |
