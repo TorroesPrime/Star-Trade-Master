@@ -1,7 +1,70 @@
 ## Screens:
 This will layout the screen interfaces for version 1.0 of the game. Screens are designed for a display of 90 characters wide by 60 lines tall.
+```
+-----------------------------------------------------------------------------------------
+|  character screen dimensions                                                          |
+| |Try to make every attempt at maintaining 1 space between the outer edge of the     | |
+| |screen and the content being displayed on the screen.                              | |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       | 
+|                                                                                       |
+|                                                                                       |                        |                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+-----------------------------------------------------------------------------------------
+```
 
-### Character Screen :
+
+## Character Screen :
 ---
 ```
 -----------------------------------------------------------------------------------------
