@@ -1,5 +1,5 @@
 ## Screens:
-This will layout the screen interfaces for version 1.0 of the game. Screens are designed for a display of 90 characters wide by 60 lines tall.
+This will layout the screen interfaces for version 1.0 of the game. Screens are designed for a display of 90 characters wide by 30 lines tall.
 ```
 -----------------------------------------------------------------------------------------
 |  character screen dimensions                                                          |
@@ -13,36 +13,7 @@ This will layout the screen interfaces for version 1.0 of the game. Screens are 
 |                                                                                       |
 |                                                                                       |
 |                                                                                       | 
-|                                                                                       |
-|                                                                                       |                        |                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
-|                                                                                       |
+|                                                                                       |                            |                                                                                       |
 |                                                                                       |
 |                                                                                       |
 |                                                                                       |
