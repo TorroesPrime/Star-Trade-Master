@@ -4,6 +4,7 @@ from game_state import GameState
 from class_exit import Exit
 from dungeon import Dungeon
 from command_factory import CommandFactory
+#import command_factory
 from command import Command
 game_state_instance = GameState()
 def test_dungeon_build():
