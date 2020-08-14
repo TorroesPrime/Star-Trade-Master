@@ -1,0 +1,20 @@
+Test Dungeon 3
+Version:RT001
+===
+Rooms:
+Main Bridge
+The main bridge of the vessal. This is just a test file and so this description is meant only for testing purposes. Have fun sucka!
+---
+Rear Bridge
+The rear section of the bridge. This is only intended for testing so that the dungeon, or ship, has multiple rooms.
+---
+Exits:
+Main Bridge
+s
+Rear Bridge
+---
+Rear Bridge
+n
+Main Bridge
+---
+===
