@@ -1,6 +1,6 @@
 from room import Room
 #from room import manuel_room
-from game_state import game_state_instance
+import game_state
 from class_exit import Exit
 from dungeon import Dungeon
 from command_factory import CommandFactory

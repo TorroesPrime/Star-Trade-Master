@@ -1,4 +1,4 @@
-from game_state import game_state_instance
+import game_state
 
 class MovementCommand():
     commandString = ""
@@ -8,9 +8,9 @@ class MovementCommand():
         self.dir = direction
 
     def execute(self):
-        currentRoom = game_state_instance.get_adventurers_current_room()
+        currentRoom = game_state.get_adventurers_current_room()
         nextRoom = currentRoom.leave_by(dir)
         if nextRoom != None:
-            game_state_instance.set_adventurers_current_room(nextRoom)
+            game_state.set_adventurers_current_room(nextRoom)
         else:
             print(f"Sorry, you can't go {self.dir} from {currentRoom.name}.")
