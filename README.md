@@ -5,8 +5,10 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 * Primary Programming language: Python 3.8
 
 # Current status
-**Prelimary write up**
+2020-8-13:
+fundimental interface system is functional. If you download the file, run interpeter.py. This fill will create a very simple 2 room dungeon. The interface will accept any string command while 'N' 'S' 'E' 'W' 'U' 'D' will create a movement command and 'SAVE' will create a save command. None of these commands actually do anything at this time.
 
+**Prelimary write up**
 At this point the project is in conceptualization. While I have ideas in my head of what I want, I need to get those ideas written down so I can work with them and start actually designing the engine and systems to power this game.
 
 
