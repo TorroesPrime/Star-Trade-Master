@@ -1,12 +1,12 @@
 from room import Room
 #from room import manuel_room
-from game_state import GameState
+from game_state import game_state_instance
 from class_exit import Exit
 from dungeon import Dungeon
 from command_factory import CommandFactory
 #import command_factory
 from command import Command
-game_state_instance = GameState()
+
 def test_dungeon_build():
     dungeonName = "Test Dungeon"
     roomOneExits = ()
@@ -25,6 +25,7 @@ def test_dungeon_build():
 def prompt_user():
     command_prompt = input("> ")
     return command_prompt
+
 def interpreter():
     testDungeon = test_dungeon_build()
     print(f"\nWelcome to {testDungeon.title}")

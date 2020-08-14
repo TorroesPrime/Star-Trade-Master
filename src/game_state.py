@@ -51,3 +51,7 @@ class GameState:
     
     def set_adventurers_current_room(self, room):
         self.adventurers_curret_room = room
+
+
+
+game_state_instance = GameState()

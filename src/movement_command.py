@@ -1,4 +1,4 @@
-from interpreter import game_state_instance
+from game_state import game_state_instance
 
 class MovementCommand():
     commandString = ""
