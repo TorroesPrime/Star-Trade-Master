@@ -1,5 +1,5 @@
 from re import search
-
+from game_state import test_value
 import movement_command as move
 from save_command import SaveCommand
 #import movement_command as move
@@ -13,10 +13,14 @@ class CommandFactory:
     def execute_command(self):
         if self.commandString =="save":
            # store(defaultSaveFile)
-           print("save command")
+           if test_value:
+               print("save command")
            return SaveCommand().execute()
         elif search(self.commandString, MOVEMENT_COMMANDS):
-            print("movement command")
-            return move.MovementCommand(self.commandString)
+            if test_value:
+                print("movement command")
+            command = move.MovementCommand(self.commandString)
+            return command.execute()
 
+            
             

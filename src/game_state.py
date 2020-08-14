@@ -1,5 +1,5 @@
+test_value = False
 class GameState:    
-    test_value = True
 #    @staticmethod
 # #   def get_instance():
 #        """ Static access method. """
@@ -48,3 +48,6 @@ class GameState:
     
     def get_adventurers_current_room(self):
         return self.adventurers_curret_room
+    
+    def set_adventurers_current_room(self, room):
+        self.adventurers_curret_room = room

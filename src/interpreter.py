@@ -3,7 +3,7 @@ from room import Room
 from game_state import GameState
 from class_exit import Exit
 from dungeon import Dungeon
-import command_factory
+from command_factory import CommandFactory
 from command import Command
 game_state_instance = GameState()
 def test_dungeon_build():
@@ -27,10 +27,12 @@ def prompt_user():
 def interpreter():
     testDungeon = test_dungeon_build()
     print(f"\nWelcome to {testDungeon.title}")
-    action = command_factory.CommandFactory(input("> "))
+    command = input("> ")
+    action = CommandFactory(command)
     while action.commandString != "q":
         action.execute_command()
-        action = command_factory.CommandFactory(prompt_user())
+        command = input("> ")
+        action = CommandFactory(command)
     print("Logging off...")
 
 
