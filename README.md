@@ -1,5 +1,5 @@
 # Project overview
-This project is an outgrowth of a Zork clone I helped build for class. Using a CLI system similar to Zork, this game will permit a player to take on the role of a "Rogue Trader", an intergalactic free trader in the midst of the 41st mellenium who is seeking their fortune and glory. 
+This project is an outgrowth of a Zork clone I helped build for class. Using a CLI system similar to Zork, this game will permit a player to take on the role of a "Star Trader", an intersteller free trader in the midst of the 30th mellenium, who is seeking their fortune and glory. 
 
 ### technologies used:
 * Primary Programming language: Python 3.8
@@ -30,3 +30,8 @@ Notes about the different types of missions that the player can under take in th
 5- [Screens](https://github.com/TorroesPrime/roguetrader/blob/master/design/screenDescription.md)
 
 Information and notes regarding the screens.
+
+6- [Actions](https://github/com/TorroesPrime/roguetrader/blob/master/design/actions.md)
+
+Information and notes about actions a character can perform.
+
