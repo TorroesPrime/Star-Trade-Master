@@ -6,6 +6,7 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 
 # Current status
 **2020-8-17:**
+
 Working on the module loading system. The intention is when you start a new game, the program will automatically present you a list of availible (and valid) adventure modules and the player only needs to select which one they wish to play.
 
 Got the system working to a point that it will build a list of availible adventure modules and display the name and description of those adventures. Next step: 
@@ -19,27 +20,27 @@ At this point the project is in conceptualization. While I have ideas in my head
 
 
 # Quick information Access 
-1-[General Description](https://github.com/TorroesPrime/roguetrader/blob/master/design/generalDescription.md)
+1-[General Description](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/generalDescription.md)
 
 A general overview of what the game is intended to be and future plans for it.
 
-2- [Command Line Interface](https://github.com/TorroesPrime/roguetrader/blob/master/design/interfaceDescription.md)
+2- [Command Line Interface](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/interfaceDescription.md)
 
 A combination of notes and design throughts about how the interface will look, be laid out, and function.
 
-3- [Character class](https://github.com/TorroesPrime/blob/master/design/characterDescription.md)
+3- [Character class](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/characterDescription.md)
 
 Information about the character, and the class derived from it.
 
-4- [Mission Notes](https://github.com/TorroesPrime/blob/master/design/characterDescription.md)
+4- [Mission Notes](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/characterDescription.md)
 
 Notes about the different types of missions that the player can under take in the game.
 
-5- [Screens](https://github.com/TorroesPrime/roguetrader/blob/master/design/screenDescription.md)
+5- [Screens](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/screenDescription.md)
 
 Information and notes regarding the screens.
 
-6- [Actions](https://github/com/TorroesPrime/roguetrader/blob/master/design/actions.md)
+6- [Actions](https://github/com/TorroesPrime/Star-Trade-Master/blob/master/design/actions.md)
 
 Information and notes about actions a character can perform.
 
