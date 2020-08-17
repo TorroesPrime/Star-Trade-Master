@@ -32,7 +32,7 @@ A combination of notes and design throughts about how the interface will look, b
 
 Information about the character, and the class derived from it.
 
-4- [Mission Notes](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/characterDescription.md)
+4- [Mission Notes](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/missionDescription.md)
 
 Notes about the different types of missions that the player can under take in the game.
 
