@@ -1,25 +1,29 @@
-__instance = True 
-save_file_version="RT001"
-current_room_leader = "Current room: "    
-default_save_file = "zorkSave"
-save_file_ext= ".sav"
-current_room_leader = "Current room: " 
-adventurers_current_room = None
-test_value = False
-def store(saveName,dungeon):
-    fileName = saveName+save_file_ext
-    saveFile = open(fileName,"a")
-    saveFile.write(save_file_version)
-    dungeon.StoreState(saveFile)
-    saveFile.write(current_room_leader+adventurers_current_room.getName())
-    saveFile.close()
-def initialize(dungeon):
-    dungeon = dungeon
-    adventurers_current_room = dungeon.entry
+class GameState():
+    def __init__(self):
+        self.save_file_version="RT001"
+        self.current_room_leader = "Current room: "    
+        self.default_save_file = "zorkSave"
+        self.save_file_ext= ".sav"
+        self.current_room_leader = "Current room: " 
+        self.adventurers_current_room = None
+        self.test_value = True
+    def store(self,saveName):
+        #fileName = saveName+self.save_file_ext
+        saveFile = open(saveName,"w")
+        saveFile.write(self.save_file_version+"\n")
+        self.dungeon.store_state(saveFile)
+        current_room_record = self.current_room_leader+self.adventurers_current_room.name
+        saveFile.write(current_room_record+"\n")
+        saveFile.close()
+    def initialize(self,dungeon):
+        self.dungeon = dungeon
+        self.adventurers_current_room = dungeon.entry
     
-def get_adventurers_current_room():
-    current_room = adventurers_current_room
-    return current_room
+    def get_adventurers_current_room(self):
+        current_room = self.adventurers_current_room
+        return current_room
     
-def set_adventurers_current_room(room):
-    adventurers_curret_room = room
+    def set_adventurers_current_room(self,room):
+        self.adventurers_curret_room = room
+
+game_state_instance = GameState()

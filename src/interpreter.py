@@ -1,25 +1,21 @@
 from room import Room
-#from room import manuel_room
-import game_state
+from game_state import game_state_instance as gsi
 from class_exit import Exit
 from dungeon import Dungeon
 from command_factory import CommandFactory
-#import command_factory
 from command import Command
+import adventure_loader
 
 def test_dungeon_build():
     dungeonName = "Test Dungeon"
-    roomOneExits = ()
-    roomTwoExits = ()
-    roomOne = Room("Entry Room","The first room in the test dungeon",roomOneExits)
-    roomTwo = Room("second Room","The second room of the test dungeon",roomTwoExits)
+    roomOne = Room("Entry Room","The first room in the test dungeon")
+    roomTwo = Room("second Room","The second room of the test dungeon")
     exit1 = Exit("n",roomOne,roomTwo)
     exit2 = Exit("s",roomTwo,roomOne)
     roomOne.add_exit(exit1)
     roomTwo.add_exit(exit2)
     testDungeon = Dungeon(dungeonName,roomOne)
     testDungeon.add_room(roomTwo)
-
     return testDungeon
 
 def prompt_user():
@@ -27,8 +23,11 @@ def prompt_user():
     return command_prompt
 
 def interpreter():
+    adventure_loader.load_modules("adventures/")
     testDungeon = test_dungeon_build()
-    print(f"\nWelcome to {testDungeon.title}")
+    gsi.initialize(testDungeon)
+    print(f"\nWelcome to {gsi.dungeon.title}")
+    print(gsi.adventurers_current_room.describe())
     command = input("> ")
     action = CommandFactory(command)
     while action.commandString != "q":

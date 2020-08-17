@@ -1,5 +1,8 @@
 from filemedia import save_file_ext,save_file_version,default_save_file,top_level_delimiter,second_level_delim,rooms_marker,exits_marker,file_name_leader,room_states_marker
-
+#from room import roomInstance
+import room
+from game_state import game_state_instance as gsi
+#from room import Room
 class Dungeon:
     def __init__(self,title,entry):
         self.filename = None
@@ -38,13 +41,22 @@ class Dungeon:
             #    raise Exception(f"no more rooms")
             #if f.readline()!=self.EXITS_MARKER:
             #    raise Exception(f"Illegal dungeon file format")
+    def scanner(self,filename):
+        with open(filename) as a:
+            dungeon_title = a.readline()
+            if a.readline().startswith("description: ")== False:
+                pass
+
+
 
     def store_state(self,saveFile):
-        saveFile.write(file_name_leader +self.filename)
-        saveFile.write(room_states_marker)
-        for room in self.rooms:
-            room.storeState(saveFile)
-        saveFile.print(top_level_delimiter)
+        saveFile.write(file_name_leader +str(self.filename)+"\n")
+        saveFile.write(room_states_marker+"\n")
+        for entry in self.rooms.values():
+            if gsi.test_value:
+                print(entry)
+            entry.store_state(saveFile)
+        saveFile.write(top_level_delimiter+"\n")
 
     def restore_state(self, readFile):
         if(readFile.readLine()!=room_states_marker):
@@ -59,3 +71,5 @@ class Dungeon:
     
     def get_room(self, roomName):
         return self.rooms.get(roomName)
+
+#dungeonInstance = Dungeon("dungeon instance",roomInstance)    

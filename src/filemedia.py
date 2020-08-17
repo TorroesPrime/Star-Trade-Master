@@ -1,4 +1,5 @@
 save_file_version="RT001"
+supported_file_versions= ["RT001"]
 current_room_leader = "Current room: "    
 default_save_file = "zorkSave"
 save_file_ext= ".sav"

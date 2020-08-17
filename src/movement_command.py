@@ -1,4 +1,4 @@
-import game_state
+from game_state import game_state_instance as gsi
 
 class MovementCommand():
     commandString = ""
@@ -8,9 +8,15 @@ class MovementCommand():
         self.dir = direction
 
     def execute(self):
-        currentRoom = game_state.get_adventurers_current_room()
-        nextRoom = currentRoom.leave_by(dir)
+        currentRoom = gsi.get_adventurers_current_room()
+        if gsi.test_value:
+            print(f"current room:{currentRoom.name}")
+        nextRoom = currentRoom.leave_by(self.dir)
+        if gsi.test_value:
+            print(f"next room:{nextRoom.name}")
         if nextRoom != None:
-            game_state.set_adventurers_current_room(nextRoom)
+            gsi.adventurers_current_room=nextRoom
+            print(gsi.adventurers_current_room.describe())
+            gsi.adventurers_current_room.been_here = True
         else:
             print(f"Sorry, you can't go {self.dir} from {currentRoom.name}.")

@@ -1,8 +1,7 @@
 from re import search
-from game_state import test_value
+from game_state import game_state_instance as gsi
 import movement_command as move
 from save_command import SaveCommand
-#import movement_command as move
 MOVEMENT_COMMANDS = "nsweud"
 
 class CommandFactory:
@@ -13,11 +12,13 @@ class CommandFactory:
     def execute_command(self):
         if self.commandString =="save":
            # store(defaultSaveFile)
-           if test_value:
+           if gsi.test_value:
                print("save command")
            return SaveCommand().execute()
+        if self.commandString == "look":
+            print(gsi.adventurers_current_room.describe())
         elif search(self.commandString, MOVEMENT_COMMANDS):
-            if test_value:
+            if gsi.test_value:
                 print("movement command")
             command = move.MovementCommand(self.commandString)
             return command.execute()

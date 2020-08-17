@@ -5,6 +5,12 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 * Primary Programming language: Python 3.8
 
 # Current status
+**2020-8-17:**
+Working on the module loading system. The intention is when you start a new game, the program will automatically present you a list of availible (and valid) adventure modules and the player only needs to select which one they wish to play.
+
+Got the system working to a point that it will build a list of availible adventure modules and display the name and description of those adventures. Next step: 
+passing the name of the selected adventure module to the load function of dungeon.
+
 **2020-8-13:**
 Fundimental interface system is functional. If you download the file, run interpeter.py. This fill will create a very simple 2 room dungeon. The interface will accept any string command while 'N' 'S' 'E' 'W' 'U' 'D' will create a movement command and 'SAVE' will create a save command. None of these commands actually do anything at this time.
 

@@ -1,26 +1,23 @@
 from dungeon import top_level_delimiter, second_level_delim
+from game_state import game_state_instance as gsi
+import class_exit
 class Room:
-    name = ""
-    desc = ""
-    been_here =""
-    exits = []
-    def __init__(self,name,desc,exits):
+    def __init__(self,name,desc):
        self.been_here = False
        self.name = name
        self.desc = desc
-       self.add_exit(exits)
-
-    def manuel_room(self,name,desc,exits):
-        """manual instanstiator for room objects. Requires a string for the name of the room, a string that is a description of the room, and a list of one or more exits"""
-        self.name = name
-        self.desc = desc
-        self.add_exit(exits)
-        return self
+       self.exits = []
+       self.been_here = False
+#       self.add_exits(exits)
     
-    def add_exts(self, exits):
+    def add_exit(self, exit):
+        self.exits.append(exit)
+    
+    def add_exits(self, exits):
         """takes a list of exits and adds each one to the room's exits list"""
-        for exit in exits:
-            self.add_exit(exit)
+        for entry in exits:
+            self.add_exit(entry)
+   
     def scanner_room(self,f):
         """Read from the .zork filename passed, and instantiate a Room object based on it."""
         self.name = f.readline()
@@ -42,6 +39,7 @@ class Room:
             save_file.write(self.name+":")
             save_file.write("been_here:true")
             save_file.write(second_level_delim)
+
     
     def restore_state(self, f):
         line = f.readline().split(":")
@@ -54,20 +52,37 @@ class Room:
     
     def describe(self):
         description = ""
-        if(self.been_here):
+        if(self.been_here == True):
             description = self.name
         else:
             description = self.name+"\n"+self.desc+"\n"
-        for exit in self.exits:
-            description = description + "\n"+exit.describe()
+        for entry in self.exits:
+            description = description + "\n"+entry.describe()
         self.been_here = True
         return description
+    def full_describe(self):
+        return self.desc
 
     def leave_by(self, direction):
-        for exit in self.exits:
-            if exit.getdirection() == direction:
-                return exit.getDest()
-        return None
+        for e in self.exits:
+            if gsi.test_value:
+                print(f"source room:{e.source_room.name}")
+                print(f"destination room:{e.destination_room.name}")
+            if e.get_direction() == direction:
+                return e.get_destination()
+            else:
+                return None
+    
+    def list_exits(self):
+        for e in self.exits:
+            print(f"Source room: {e.get_source().name}")
+            print(f"Direction: {e.get_direction()}")
+            print(f"Destination room: {e.get_destination().name}")
 
-    def add_exit(self, exit):
-        self.exits.append(exit)
+
+
+roomInstance = Room("blankroom","method acces")
+    
+
+
+
