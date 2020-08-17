@@ -40,7 +40,7 @@ Notes about the different types of missions that the player can under take in th
 
 Information and notes regarding the screens.
 
-6- [Actions](https://github/com/TorroesPrime/Star-Trade-Master/blob/master/design/actions.md)
+6- [Actions](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/actions.md)
 
 Information and notes about actions a character can perform.
 
