@@ -6,7 +6,6 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 
 # Current status
 **2020-8-17:**
-
 Working on the module loading system. The intention is when you start a new game, the program will automatically present you a list of availible (and valid) adventure modules and the player only needs to select which one they wish to play.
 
 Got the system working to a point that it will build a list of availible adventure modules and display the name and description of those adventures. Next step: 
@@ -44,3 +43,6 @@ Information and notes regarding the screens.
 
 Information and notes about actions a character can perform.
 
+7- [Adventure Modules](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/design/adventures.md)
+
+Information and note about adventure module files.
