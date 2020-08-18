@@ -35,8 +35,33 @@ This will layout the screen interfaces for version 1.0 of the game. Screens are 
 -----------------------------------------------------------------------------------------
 ```
 
-
+## Game Intro Screen :
+Displayed when the player starts the game:
+```
+-----------------------------------------------------------------------------------------
+|                                                                                       |
+|  Welcome to Star Trade Master, a role-playing game where you will take command of a   |
+|      great space fearing vessale and seek your fortune and glory in the galaxy.       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|         Do you wish to start a new game, or load an in-progress adventure?            |
+| If you start a new adventure, you will be given the option to import any already      |
+| created characters in your data base. If you load an in-progress adventure, you will  |
+| continue from where you last left the adventure.                                      |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+| [1] - Start a New Game          [2] - Load an in-progress adventure                   |
+|                                                                                       |
+| Please enter the number of your choice:                                               |
+| >                                                                                     |
+-----------------------------------------------------------------------------------------
+```
 ## Character Screen :
+Displayed when the player calls the "show stats" command on a given character.
 ---
 ```
 -----------------------------------------------------------------------------------------
@@ -69,43 +94,8 @@ This will layout the screen interfaces for version 1.0 of the game. Screens are 
 |                                                                                        |
 |                                                                                        |
 +----------------------------------------------------------------------------------------+
-
-                                                                                         
- 
-
-
+                                                                                
 ```
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
