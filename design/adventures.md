@@ -5,7 +5,7 @@ The system will support loading of "Adventure modules", which are single file ar
 1. an adventure module file must have the .adv extension.
 2. a .adv filt is a text file with the proper structure to be read by the program.
 
-###example structure of a .adv file:
+### example structure of a .adv file:
 > items that are part of the file will be rendered **like this** while explinations of the part will be rendered *like this*.
 
 **Adventure name** *title of the adventure*
