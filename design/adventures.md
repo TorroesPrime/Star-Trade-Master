@@ -7,21 +7,13 @@ The system will support loading of "Adventure modules", which are single file ar
 
 ### example structure of a .adv file:
 > items that are part of the file will be rendered **like this** while explinations of the part will be rendered *like this*.
-
 **Adventure name** *title of the adventure*
-
 **Description: a multiline description of the adventure.** *the description of the adventure*
-
 **Version:RT001** *the supported version of the Star Trader engine this adventure requires.*
-
 **===** *top level delemiter. Denotes a change in material type is coming up.*
-
 **Items:** *item notation marker. Signifies that until another top level delimeter is encoutner, the system is reading materials for item type objects.*
-
 **cake** *item name*
-
 **2** *weight of the item*
-
 **craftable:true** *craftable notation to signify if the item can be crafted by the player*
 **recipe:flour-milk-eggs-vanilla** *the recipe of ingredients needed to craft this item*
 **examine: it's a cake.** *verb action:response that this item can have performed on it.*
