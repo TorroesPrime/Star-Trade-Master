@@ -6,7 +6,9 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 
 # Current status
 **2020-8-23:**
-working on the character class today. For the moment I'm using a 9 stat character class model based on the Warhammer 40,000 role play games. 
+working on the character class today. For the moment I'm using a 9 stat character class model based on the Warhammer 40,000 role play games. Very basic all told right now, but I've got the fundimental characteristics setup and I have a start on displaying the player characters' stats view a "view stats" command.
+![character sheet](https://github.com/TorroesPrime/Star-Trade-Master/blob/master/files/screen-8-23-2020.png)
+
 
 **2020-8-17:**
 Working on the module loading system. The intention is when you start a new game, the program will automatically present you a list of availible (and valid) adventure modules and the player only needs to select which one they wish to play.
