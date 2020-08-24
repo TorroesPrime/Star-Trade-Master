@@ -5,27 +5,24 @@ from dungeon import Dungeon
 from command_factory import CommandFactory
 from command import Command
 import adventure_loader
+from testBuildDungeon import test_dungeon_build as tester
+from testBuildDungeon import test_char_build as char_test
+import character as char
 
-def test_dungeon_build():
-    dungeonName = "Test Dungeon"
-    roomOne = Room("Entry Room","The first room in the test dungeon")
-    roomTwo = Room("second Room","The second room of the test dungeon")
-    exit1 = Exit("n",roomOne,roomTwo)
-    exit2 = Exit("s",roomTwo,roomOne)
-    roomOne.add_exit(exit1)
-    roomTwo.add_exit(exit2)
-    testDungeon = Dungeon(dungeonName,roomOne)
-    testDungeon.add_room(roomTwo)
-    return testDungeon
+adventures_dir = "adventures/"
+
 
 def prompt_user():
     command_prompt = input("> ")
     return command_prompt
 
 def interpreter():
-    adventure_loader.load_modules("adventures/")
-    testDungeon = test_dungeon_build()
-    gsi.initialize(testDungeon)
+
+    #adventure = Dungeon.scanner(adventure_loader.select_modules(adventure_loader.load_modules(adventures_dir)))
+    gsi.initialize(tester())
+    test_char = char_test()
+    gsi.add_character(test_char)
+    gsi.player_character=test_char
     print(f"\nWelcome to {gsi.dungeon.title}")
     print(gsi.adventurers_current_room.describe())
     command = input("> ")

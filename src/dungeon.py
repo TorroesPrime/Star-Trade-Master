@@ -1,4 +1,4 @@
-from filemedia import save_file_ext,save_file_version,default_save_file,top_level_delimiter,second_level_delim,rooms_marker,exits_marker,file_name_leader,room_states_marker
+from filemedia import *
 #from room import roomInstance
 import room
 from game_state import game_state_instance as gsi
@@ -41,11 +41,41 @@ class Dungeon:
             #    raise Exception(f"no more rooms")
             #if f.readline()!=self.EXITS_MARKER:
             #    raise Exception(f"Illegal dungeon file format")
-    def scanner(self,filename):
+    @staticmethod
+    def scanner(filename):
         with open(filename) as a:
+            adv_data = []
+            for line in a.readlines():
+                adv_data.append(line.strip("\n"))
+            
+
             dungeon_title = a.readline()
-            if a.readline().startswith("description: ")== False:
-                pass
+            dungeon_desc = ""
+            test_line = a.readline()
+            if gsi.test_value:
+                print(f"test_line:{test_line}")
+            if test_line.startswith("Description: ")== False:
+                dungeon_desc = ""
+            else:
+                dungeon_desc = test_line
+            if gsi.test_value:
+                print(f"dungeon_desc:{dungeon_desc}")
+            check_version = a.readline().replace("Version:","")
+            if gsi.test_value:
+                print(f"check_version:{check_version}")
+            if check_version not in supported_file_versions:
+                raise Exception("This adventure module is not supported by this version of the game.")
+            else:
+                check_line = a.readline()
+                if gsi.test_value:
+                    print(f"check_line:{check_line}")
+                if check_line != top_level_delimiter:
+                    raise Exception("Invalid adventure format")
+
+
+
+
+                
 
 
 

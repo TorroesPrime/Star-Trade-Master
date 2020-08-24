@@ -60,9 +60,9 @@ def select_modules(valid_modules):
         value_selector = value_selector+1
     print("Type the number of the adventure module you want to load")
     a = int(input())-1
-    print(valid_modules[a].fileName)
+    return valid_modules[a].fileName
 
 
 #a = adventure_file_loader("adventures/testFile.adv")
-load_modules("adventures/")
-select_modules(load_modules("adventures/"))
+#load_modules("adventures/")
+#select_modules(load_modules("adventures/"))
