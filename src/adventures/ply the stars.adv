@@ -1,0 +1,22 @@
+Ply the stars v.01
+Description: Prepare to ply the stars as you take command of the "Truest Spirit", a new Exervantes class Cruiers. You must select your command crew and give them assignments based on their qualifications and what you seek from them. Will you command an Imperial trade warrent backed by the power of your Macro-cannons? Will you be heralded as a trades-man that brings golds and riches? Will you enact one-sided deals that extort your 'trading partners'? Indeed, at the master of the "Truest Spirit" the idea that the galaxy is yours to use as you see fit is quit true. [This is a testing file and each subsequent version will introduce new elements for the system to work with]
+Version:RT001
+===
+Rooms:
+Main Bridge
+The main bridge of the vessal. This is just a test file and so this description is meant only for testing purposes. Have fun sucka!
+---
+Rear Bridge
+The rear section of the bridge. This is only intended for testing so that the dungeon, or ship, has multiple rooms.
+---
+===
+Exits:
+Main Bridge
+s
+Rear Bridge
+---
+Rear Bridge
+n
+Main Bridge
+---
+===
