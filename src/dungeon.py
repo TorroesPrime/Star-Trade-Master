@@ -1,7 +1,7 @@
 from filemedia import *
 #from room import roomInstance
 import room
-from game_state import game_state_instance as gsi
+from game_state_instance import game_state_instance as gsi
 #from room import Room
 class Dungeon:
     def __init__(self,title,entry):

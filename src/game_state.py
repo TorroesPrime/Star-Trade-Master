@@ -1,4 +1,4 @@
-import character
+#import character
 class GameState():
     def __init__(self):
         self.save_file_version="RT001"
@@ -10,6 +10,7 @@ class GameState():
         self.test_value = False
         self.player_character = None
         self.characters = []
+        self.actions = []
     def store(self,saveName):
         #fileName = saveName+self.save_file_ext
         saveFile = open(saveName,"w")
@@ -28,8 +29,15 @@ class GameState():
     
     def set_adventurers_current_room(self,room):
         self.adventurers_curret_room = room
+    
     def set_player_character(self,character):
         self.player_character = character
+    
     def add_character(self,character):
         self.characters.append(character)
-game_state_instance = GameState()
+
+    def set_test(self):
+        if self.test_value:
+            self.test_value = False
+        else:
+            self.test_value = True

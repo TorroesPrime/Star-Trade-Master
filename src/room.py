@@ -1,5 +1,5 @@
 from dungeon import top_level_delimiter, second_level_delim
-from game_state import game_state_instance as gsi
+from game_state_instance import game_state_instance as gsi
 import class_exit
 class Room:
     def __init__(self,name,desc):
@@ -7,6 +7,7 @@ class Room:
        self.name = name
        self.desc = desc
        self.exits = []
+       self.inventory = []
        self.been_here = False
 #       self.add_exits(exits)
     
@@ -61,7 +62,15 @@ class Room:
         self.been_here = True
         return description
     def full_describe(self):
-        return self.desc
+        description = self.name+"\n"+self.desc+"\n"
+        items = "the room contains: "
+        for entry in self.exits:
+            description = description + "\n"+entry.describe()
+        for item in self.inventory:
+            items = items + item.name
+        description = description+"\n"+items+"."
+
+        return description
 
     def leave_by(self, direction):
         for e in self.exits:
@@ -78,6 +87,10 @@ class Room:
             print(f"Source room: {e.get_source().name}")
             print(f"Direction: {e.get_direction()}")
             print(f"Destination room: {e.get_destination().name}")
+    
+    def add_item(self,item):
+        self.inventory.append(item)
+
 
 
 

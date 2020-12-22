@@ -1,5 +1,5 @@
 from room import Room
-from game_state import game_state_instance as gsi
+from game_state_instance import game_state_instance as gsi
 from class_exit import Exit
 from dungeon import Dungeon
 from command_factory import CommandFactory
@@ -17,7 +17,6 @@ def prompt_user():
     return command_prompt
 
 def interpreter():
-
     #adventure = Dungeon.scanner(adventure_loader.select_modules(adventure_loader.load_modules(adventures_dir)))
     gsi.initialize(tester())
     test_char = char_test()
@@ -27,15 +26,12 @@ def interpreter():
     print(gsi.adventurers_current_room.describe())
     command = input("> ")
     action = CommandFactory(command)
+
     while action.commandString != "q":
         action.execute_command()
         command = input("> ")
+        
         action = CommandFactory(command)
     print("Logging off...")
 
-
-
-
 interpreter()
-
-

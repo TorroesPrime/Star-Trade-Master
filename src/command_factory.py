@@ -1,8 +1,11 @@
 from re import search
-from game_state import game_state_instance as gsi
+from game_state_instance import game_state_instance as gsi
 import movement_command as move
 from save_command import SaveCommand
 from unknown_command import UnknownCommand
+from help_command import HelpCommand
+from look_command import LookCommand
+from test_command import TestCommand
 import character
 MOVEMENT_COMMANDS = "nsweud"
 
@@ -14,19 +17,26 @@ class CommandFactory:
         if len(a)>1:
             self.commandString = a[0]
             self.nounString = a[1]
+        elif len(a)==1:
+            self.commandString=a[0]
+            self.nounString=""
         else:
             self.commandString = a[0]
 
     def execute_command(self):
+        command = "No Command"
         if self.commandString =="save":
-           # store(defaultSaveFile)
-           if gsi.test_value:
-               print("save command")
-           return SaveCommand().execute()
+          # store(defaultSaveFile)
+            if gsi.test_value:
+              print("save command")
+            command = SaveCommand().execute()
+           #return SaveCommand().execute()
         elif self.commandString == "look":
             if gsi.test_value:
                 print("look command")
-            print(gsi.adventurers_current_room.describe())
+            command = LookCommand().execute()
+           # print(gsi.adventurers_current_room.describe())
+           
         elif search(self.commandString, MOVEMENT_COMMANDS):
             if gsi.test_value:
                 print("movement command")
@@ -50,7 +60,7 @@ class CommandFactory:
                 print("wound command")
                 wound_amount = input("How many wounds should be inflicted?")
             else:
-                return UnknownCommand("wound").execute()    
+                command = UnknownCommand("wound").execute()    
         elif self.commandString == "talk":
             if gsi.test_value:
                 print("talk command")
@@ -59,11 +69,20 @@ class CommandFactory:
                 print("carry command")
         elif self.commandString == "view":
             if self.nounString == "stats":
-                gsi.player_character.character_sheet()
+                command = gsi.player_character.character_sheet()
+                print(command)
+        elif self.commandString =="test":
+            command = TestCommand().execute()
+        elif self.commandString == "help":
+            if gsi.test_value:
+                print("help command")
+            command = HelpCommand().execute()
         else:
             if gsi.test_value:
                print("unknown command")
             string_value = self.commandString+" "+self.nounString
-            return UnknownCommand(string_value).execute()
+            command = UnknownCommand(string_value).execute()
+        print(command)
+        return command.execute()
 
             

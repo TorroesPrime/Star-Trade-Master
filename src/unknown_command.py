@@ -3,4 +3,4 @@ class UnknownCommand():
         self.bogusCommand = bogus
     
     def execute(self):
-        print(f"I'm not sure what you mean by \"{self.bogusCommand}\"")
+        return "I'm not sure what you mean by \""+self.bogusCommand+"\""
