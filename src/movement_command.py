@@ -27,7 +27,7 @@ class MovementCommand():
         
     def details(self,details):
         if(details != True):
-            textString = self.description
+            textString = " - "+self.commandName+": "+self.description
         else:
 
             textString = " - "+self.commandName+": "+self.description+"\nUsage Example: "+self.usage+"\n"+self.usageDetails

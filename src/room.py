@@ -2,6 +2,7 @@ from dungeon import top_level_delimiter, second_level_delim
 from game_state_instance import game_state_instance as gsi
 import class_exit
 class Room:
+    """Creates a 'room' object that is made up of a room and at least 1 'exit' leading to another room."""
     def __init__(self,name,desc):
        self.been_here = False
        self.name = name
@@ -12,6 +13,7 @@ class Room:
 #       self.add_exits(exits)
     
     def add_exit(self, exit):
+        """adds an exit to the room"""
         self.exits.append(exit)
     
     def add_exits(self, exits):
@@ -43,6 +45,7 @@ class Room:
 
     
     def restore_state(self, f):
+        """retores the state of the room from a .sav file."""
         line = f.readline().split(":")
         if line[0]!="been_here":
             raise Exception("No been_here value")
@@ -52,6 +55,7 @@ class Room:
             self.been_here = False
     
     def describe(self):
+        """returns a string describing the room that may include the exits from the room."""
         description = ""
         if(self.been_here == True):
             description = self.name
@@ -62,6 +66,7 @@ class Room:
         self.been_here = True
         return description
     def full_describe(self):
+        """returns a string describing the room, the name of the room, the exits in the room and the contents of the room."""
         description = self.name+"\n"+self.desc+"\n"
         items = "the room contains: "
         for entry in self.exits:
@@ -73,6 +78,7 @@ class Room:
         return description
 
     def leave_by(self, direction):
+        """allows the player to move from the current room to an adjascent room by supplying a direction."""
         for e in self.exits:
             if gsi.test_value:
                 print(f"source room:{e.source_room.name}")
@@ -83,13 +89,26 @@ class Room:
                 return None
     
     def list_exits(self):
+        """lists the availible exits from a given room."""
         for e in self.exits:
             print(f"Source room: {e.get_source().name}")
             print(f"Direction: {e.get_direction()}")
             print(f"Destination room: {e.get_destination().name}")
     
     def add_item(self,item):
+        """adds an item to the room's inventory"""
         self.inventory.append(item)
+        print("Added "+item.name)
+
+    def remove_item(self,item_name):
+        """removes an item from the room's inventory by supplying the name of the time to be removed."""
+        room_inventory_names = []
+        item = ""
+        for item in self.inventory:
+            item_name = item.name
+            room_inventory_names.append(item_name)
+        if item_name in room_inventory_names:
+            self.inventory.pop
 
 
 

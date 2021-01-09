@@ -1,37 +1,30 @@
-from room import Room
-from game_state_instance import game_state_instance as gsi
-from class_exit import Exit
-from dungeon import Dungeon
+"""main input functions when run in a terminal. """
 from command_factory import CommandFactory
-from command import Command
-import adventure_loader
-from testBuildDungeon import test_dungeon_build as tester
-from testBuildDungeon import test_char_build as char_test
-import character as char
+from game_state_instance import game_state_instance as gsi
+from test_build__dungeon import test_dungeon_build as tester
+from test_build__dungeon import test_char_build as char_test
 
-adventures_dir = "adventures/"
+
 
 
 def prompt_user():
+    '''provides the '>' character for the interpreter'''
     command_prompt = input("> ")
     return command_prompt
 
 def interpreter():
-    #adventure = Dungeon.scanner(adventure_loader.select_modules(adventure_loader.load_modules(adventures_dir)))
+    '''Primary interaction method. Initialized Game state, sets player character.'''
     gsi.initialize(tester())
     test_char = char_test()
     gsi.add_character(test_char)
-    gsi.player_character=test_char
+    gsi.player_character = test_char
     print(f"\nWelcome to {gsi.dungeon.title}")
     print(gsi.adventurers_current_room.describe())
     command = input("> ")
     action = CommandFactory(command)
-
-    while action.commandString != "q":
+    while action.command_string != "q":
         action.execute_command()
         command = input("> ")
-        
         action = CommandFactory(command)
     print("Logging off...")
-
 interpreter()

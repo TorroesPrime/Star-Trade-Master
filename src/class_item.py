@@ -12,6 +12,9 @@ class item():
     def get_name(self):
         return self.name
     
+    def get_weight(self):
+        return self.weight
+    
     def result_from_action(self,action):
         if action in self.actions.keys():
             return self.actions.get(action)

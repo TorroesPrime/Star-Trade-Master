@@ -20,6 +20,6 @@ class SaveCommand():
     def details(self,details):
         """ Method docstring"""
         if(details != True):
-            return self.description
+            return " - "+self.commandName+": "+self.description
         else:
             return " - "+self.commandName+": "+self.description+"\nUsage Example: "+self.usageDetails

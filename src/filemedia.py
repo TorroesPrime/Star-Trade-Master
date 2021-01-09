@@ -3,8 +3,10 @@ import xlrd
 import json
 import random
 from game_state_instance import game_state_instance as gsi
+from class_item import item
 screen_width = 90
 save_file_version="RT001"
+inv_header = "  Item Description        Item Weight "
 supported_file_versions= ["RT001"]
 current_room_leader = "Current room: "    
 default_save_file = "zorkSave"
@@ -21,6 +23,20 @@ total_xp = "Total Expierence Earned: "
 core_chars = "                              core Characteristics                              "
 char_table_bar = "+-----"
 char_table_top = " "*17+"|  WS |  BS | Str | Tgh |  Ag | Int | Per |  WP | Chr |"
+
+item_apple_stats = ["Apple", "A red Fuji Apple", .2]
+item_apple_Actions = {"eat": "consume-You eat the apple", "examine": "It's a red apple. It looks really tasty.", "throw": "destroy-You hurl the apple agaisnt the wall. It smashes agaisnt it with a splat."}
+item_apple = item(item_apple_stats,item_apple_Actions)
+item_rusty_spoon_stats = ["Spoon", "a rusty metal spoon", .1]
+item_rusty_spoon_Actions ={"examine":"It's a rusty metal spoon. Looks like it may have been made out of iron.", "throw": "discard-You hurl the spoon agaisnt the wall. It clatters to the floor."}
+item_rusty_spoon = item(item_rusty_spoon_stats,item_rusty_spoon_Actions)
+item_birthday_cake_stats = ["Cake", "A birthday Cake", 2.5]
+item_birthday_cake_Actions = {"examine": "It's a brightly decorrated birthday cake. Why is there a birthday cake in here?", "throw": "destroy-You hurl the cake against the wall. It splatters against it and remains slide down in a gooey heep. What a waste."}
+item_birthday_cake = item(item_birthday_cake_stats,item_birthday_cake_Actions)
+item_examples = []
+item_examples.append(item_apple)
+item_examples.append(item_birthday_cake)
+item_examples.append(item_rusty_spoon)
 
 class dice():
     def __init__(self,sides):

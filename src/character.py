@@ -1,6 +1,8 @@
 import filemedia as fm
 import random
-import class_item
+#import class_item
+from filemedia import inv_header
+from tools import spacer
 class Character():
     def __init__(self,stats):
         self.name = stats[0]
@@ -33,6 +35,10 @@ class Character():
             print("You are not strong enough to carry all of that.")
         else:
             self.inventory.append(item)
+    def list_inventory(self):
+        print(inv_header)
+        for item in self.inventory:
+            print(spacer(item.name,25)+"|"+spacer(str(item.weight),12)+"|\n")
 
     def arm(self, weapon):
         self.primary_weapon=weapon

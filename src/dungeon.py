@@ -1,4 +1,4 @@
-from filemedia import *
+from filemedia import top_level_delimiter,second_level_delim,room_states_marker,rooms_marker,supported_file_versions,file_name_leader
 #from room import roomInstance
 import room
 from game_state_instance import game_state_instance as gsi
