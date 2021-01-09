@@ -8,23 +8,8 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 **2021-1-08:**
 Hey, believe it or not, I haven’t abandoned this project! I know it’s been a few months since I was able to update. This last semester of class was particularly demanding and really left me in a bad place when it came to creative energy and motivation. There were days where I looked at my collection of Role play game rule books and felt pangs of guilt for not working on this project, only to be reminded I still had assignments for class I hadn’t finished. Oh and Covid has been a thing. But I’ve been on winter break between semesters, and that means I’ve been able to get some more work in on it. There are three things I’ve worked on most recently.
 The first thing is the <help> command. 
-```
-- Movement Command: Allows the player to move from room to room
-Usage Example: > n
-moves the player to the north joining room, if able.
- - Save Command: Saves the current gamestate to a .sav file.
-Usage Example: if no save file name is supplied, the default save file name is used.
- - take Command: Takes the specified item and adds it to the player inventory.
-Usage Example: if an item matching the name supplied is not found in the room, displays a message saying no such item found in current room.
- - Look Command: Allows the user to view the full description of the room they currently occupy.
-Usage Example: 
- - Inventory Command: Displays player current inventory.
-Usage Example: > i =or= >inventory =or= >inven 
-  Item Description        Item Weight 
- Apple                   | 0.2        |
- Cake                    | 2.5        |
- Spoon                   | 0.1        |
-```
+![commands](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/files/screensnip-01-08-2021.png)
+ 
 You can see from the display snippet above that the <help> command shows information for the move, save, take, look, and inventory commands. These are the basic commands I intend to get working for version .01 of the system. 
 
 Future plans for the <help> command include allowing the player to use the <help> command in conjunction with a specific command. So you could do <help take> and get a more detailed explanation of the <take> and <take all> commands.
