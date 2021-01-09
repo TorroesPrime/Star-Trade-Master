@@ -10,13 +10,13 @@ Hey, believe it or not, I haven’t abandoned this project! I know it’s been a
 The first thing is the <help> command. 
 ![commands](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/files/screensnip-01-08-2021.png)
  
-You can see from the display snippet above that the <help> command shows information for the move, save, take, look, and inventory commands. These are the basic commands I intend to get working for version .01 of the system. 
+You can see from the display snippet above that the `help` command shows information for the move, save, take, look, and inventory commands. These are the basic commands I intend to get working for version .01 of the system. 
 
-Future plans for the <help> command include allowing the player to use the <help> command in conjunction with a specific command. So you could do <help take> and get a more detailed explanation of the <take> and <take all> commands.
+Future plans for the `help` command include allowing the player to use the `help` command in conjunction with a specific command. So you could do `help take` and get a more detailed explanation of the `take` and `take all` commands.
 
-The second thing I’ve been working on is the <inventory> command. It’s not finished yet, but it matches the example output of the help command which means it’s functional.
+The second thing I’ve been working on is the `inventory` command. It’s not finished yet, but it matches the example output of the help command which means it’s functional.
 
-Finally I’ve gotten the <take> command working. As of right now you can only take single items, but the next thing is getting the <take all> command to work. 
+Finally I’ve gotten the `take` command working. As of right now you can only take single items, but the next thing is getting the `take all` command to work. 
 
 **2020-8-23:**
 working on the character class today. For the moment I'm using a 9 stat character class model based on the Warhammer 40,000 role play games. Very basic all told right now, but I've got the fundimental characteristics setup and I have a start on displaying the player characters' stats view a "view stats" command.
