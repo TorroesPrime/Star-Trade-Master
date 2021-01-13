@@ -1,21 +1,28 @@
 from filemedia import top_level_delimiter,second_level_delim,room_states_marker,rooms_marker,supported_file_versions,file_name_leader
-#from room import roomInstance
-import room
 from game_state_instance import game_state_instance as gsi
-#from room import Room
+
 class Dungeon:
     def __init__(self,title,entry):
         self.filename = None
         self.title = title
         self.entry = entry
         self.rooms = {}
-
     def manual_Dungeon(self,title,entry):
         """manual dungeon instantiation method"""
         self.filename = None
         self.title = title
         self.entry = entry
         self.rooms = {}
+        return self
+    def dungeon_builder(self,data):
+        """method to build a dungeon by supplying a list that starts with the name of the dungeon and contains the rooms"""
+        title = data[0]
+        entry = data[1]
+        self.__init__(title,entry)
+        for room in data[2:]:
+            self.add_room(room)
+        if gsi.test_value:
+            print("Entry room: "+self.entry.name)
         return self
 
     def dungeon(self,filename,entry):
@@ -47,8 +54,6 @@ class Dungeon:
             adv_data = []
             for line in a.readlines():
                 adv_data.append(line.strip("\n"))
-            
-
             dungeon_title = a.readline()
             dungeon_desc = ""
             test_line = a.readline()
@@ -71,22 +76,15 @@ class Dungeon:
                     print(f"check_line:{check_line}")
                 if check_line != top_level_delimiter:
                     raise Exception("Invalid adventure format")
-
-
-
-
-                
-
-
-
-    def store_state(self,saveFile):
-        saveFile.write(file_name_leader +str(self.filename)+"\n")
-        saveFile.write(room_states_marker+"\n")
-        for entry in self.rooms.values():
+    def store_state(self,save_file):
+        save_file.write(file_name_leader +str(self.filename)+"\n")
+        save_file.write(room_states_marker+"\n")
+        for room in self.rooms.values():
             if gsi.test_value:
-                print(entry)
-            entry.store_state(saveFile)
-        saveFile.write(top_level_delimiter+"\n")
+                print(room.name)
+            room.store_state(save_file)
+            save_file.write(second_level_delim)
+        save_file.write(top_level_delimiter+"\n")
 
     def restore_state(self, readFile):
         if(readFile.readLine()!=room_states_marker):

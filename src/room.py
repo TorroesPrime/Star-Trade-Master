@@ -1,15 +1,16 @@
 from dungeon import top_level_delimiter, second_level_delim
 from game_state_instance import game_state_instance as gsi
-import class_exit
+#import class_exit
 class Room:
-    """Creates a 'room' object that is made up of a room and at least 1 'exit' leading to another room."""
-    def __init__(self,name,desc):
-       self.been_here = False
-       self.name = name
-       self.desc = desc
-       self.exits = []
-       self.inventory = []
-       self.been_here = False
+    """Creates a 'room' object that is made up of a room and at least 1 'exit' \
+        leading to another room."""
+    def __init__(self,data):
+        self.been_here = False
+        self.name = data[0]
+        self.desc = data[1]
+        self.exits = []
+        self.inventory = []
+        self.been_here = False
 #       self.add_exits(exits)
     
     def add_exit(self, exit):
@@ -22,7 +23,8 @@ class Room:
             self.add_exit(entry)
    
     def scanner_room(self,f):
-        """Read from the .zork filename passed, and instantiate a Room object based on it."""
+        """Read from the .zork filename passed, and instantiate a Room object \
+            based on it."""
         self.name = f.readline()
         if(self.name == top_level_delimiter):
             raise Exception("Invalid dungeon format")
@@ -42,8 +44,9 @@ class Room:
             save_file.write(self.name+":")
             save_file.write("been_here:true")
             save_file.write(second_level_delim)
-
-    
+        else:
+            save_file.write(self.name+":")
+            save_file.write(second_level_delim)
     def restore_state(self, f):
         """retores the state of the room from a .sav file."""
         line = f.readline().split(":")
@@ -66,19 +69,22 @@ class Room:
         self.been_here = True
         return description
     def full_describe(self):
-        """returns a string describing the room, the name of the room, the exits in the room and the contents of the room."""
+        """returns a string describing the room, the name of the room, the exits in the room and \
+            the contents of the room."""
         description = self.name+"\n"+self.desc+"\n"
-        items = "the room contains: "
+        items = "the room contains: "+self.list_items()
         for entry in self.exits:
             description = description + "\n"+entry.describe()
-        for item in self.inventory:
-            items = items + item.name
         description = description+"\n"+items+"."
-
         return description
-
+    def list_items(self):
+        items =""
+        for item in self.inventory:
+            items = items + "\n-"+item.name
+        return items
     def leave_by(self, direction):
-        """allows the player to move from the current room to an adjascent room by supplying a direction."""
+        """allows the player to move from the current room to an adjascent room by supplying a \
+            direction."""
         for e in self.exits:
             if gsi.test_value:
                 print(f"source room:{e.source_room.name}")
@@ -87,33 +93,29 @@ class Room:
                 return e.get_destination()
             else:
                 return None
-    
     def list_exits(self):
         """lists the availible exits from a given room."""
         for e in self.exits:
             print(f"Source room: {e.get_source().name}")
             print(f"Direction: {e.get_direction()}")
             print(f"Destination room: {e.get_destination().name}")
-    
     def add_item(self,item):
         """adds an item to the room's inventory"""
         self.inventory.append(item)
-        print("Added "+item.name)
-
-    def remove_item(self,item_name):
-        """removes an item from the room's inventory by supplying the name of the time to be removed."""
+        if gsi.test_value:
+            print("Added "+item.name)
+    def remove_item(self, item_name):
+        """removes an item from the room's inventory by supplying the name of the time to be \
+            removed."""
         room_inventory_names = []
         item = ""
         for item in self.inventory:
-            item_name = item.name
-            room_inventory_names.append(item_name)
-        if item_name in room_inventory_names:
-            self.inventory.pop
-
-
-
-
-roomInstance = Room("blankroom","method acces")
+            if item_name == item.name:
+                self.inventory.remove(item)
+                if gsi.test_value:
+                    print(item.name+" removed from room")
+roomlist = ["blankroom","method acces"]
+roomInstance = Room(roomlist)
     
 
 

@@ -36,7 +36,12 @@ def test_dungeon_build():
          red apple. It looks really tasty.", "throw": "destroy-You hurl the \
              apple agaisnt the wall. It smashes agaisnt it with a splat."}
     item_one = item(item_one_stats, item_one_actions)
+    item_two_stats = ["Spoon", "a metal spoon", .01]
+    item_two_actions = {"examine": "examine-The spoon is made of some form of lite metal, perhaps tin.", "throw": "remove-You hurl the \
+             spoon agaisnt the wall. It clashes against the wall with a clatter."}
+    item_two = item(item_two_stats, item_two_actions)
     room_one.add_item(item_one)
+    room_one.add_item(item_two)
     return test_dungeon
 
 def test_char_build():

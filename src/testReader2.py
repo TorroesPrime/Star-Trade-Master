@@ -22,10 +22,11 @@ def dungeon_scanner(fileName):
         adventure_info = []
         for line_num,line in enumerate(a.readlines()):
             if delimiterfound == True:
-                ...        <---- (your functions etc)
-                delimiterfound = False
-            if line[0:2] == "===":
-                delimiterfound = True
+                if line[0:4] == "NPCs:":
+                    delimiterfound = False
+                if line[0:2] == "===":
+                    delimiterfound = True
+
             print("line "+str(line_num+1)+": "+line)
             adventure_info.append(line)
 

@@ -9,7 +9,7 @@ class TakeCommand():
         self.description = "Takes the specified item and adds it to the player inventory."
         self.usage = "> take hammer"
         self.usageDetails = "if an item matching the name supplied is not found in the room, displays a message saying no such item found in current room."
-        self.item = item
+        self.item = item.lower()
 
     def execute(self):
        # room_inventory = gsi.get_adventurers_current_room().inventory
@@ -27,16 +27,24 @@ class TakeCommand():
         #    if gsi.test_value:
         #        print(item.name)
         response = ""
-        for item in gsi.get_adventurers_current_room().inventory:
-            if gsi.test_value:
-                print("item name:"+item.name)
-                print("search name:"+self.item)
-            if self.item == item.name.lower():
+        if self.item == "all":
+            response = ""
+            for item in gsi.get_adventurers_current_room().inventory:
                 gsi.player_character.add_item(item)
                 gsi.get_adventurers_current_room().remove_item(item)
-                response = self.item + " added to your inventory."
-            else:
-                response = "No "+self.item+" found in the room."
+                response = response+item.name + " added to your inventory. \n"
+        else:
+            for item in gsi.get_adventurers_current_room().inventory:
+                if gsi.test_value:
+                    print("item name:"+item.name.lower())
+                    print("search name:"+self.item.lower())
+                if self.item == item.name.lower():
+                    gsi.player_character.add_item(item)
+                    gsi.adventurers_current_room.inventory.remove(item)
+                    response = self.item + " added to your inventory."
+                    break
+                else:
+                    response = "No "+self.item+" found in the room."
         return response
 
     def details(self,details):

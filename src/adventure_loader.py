@@ -9,11 +9,12 @@ test_value = False
 
 
 class adventure_object():
-    def __init__(self,fileName,name,desc):
+    def __init__(self, fileName, name, desc):
         self.fileName = fileName
         self.name = name
         self.desc = desc
         self.supported = False
+
 
 testFiles = os.listdir("adventures")
 def adventure_file_loader(fileName):
@@ -31,7 +32,7 @@ def adventure_file_loader(fileName):
                     print("supported adventure module")
                 name = file_contents_list[0]
                 desc = file_contents_list[1]
-                adventure_mod =adventure_object(fileName,name,desc)
+                adventure_mod = adventure_object(fileName, name, desc)
                 return adventure_mod
         else:
             raise Exception("Invalid adventure format")

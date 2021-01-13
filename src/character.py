@@ -20,9 +20,10 @@ class Character():
         self.home_world = stats[10]
         self.motivation = stats[11]
         self.gender = stats[12]
-        self.age = stats[13]
+        self.age = 25
         self.skills = []
         self.traits = []
+        self.wounds = stats[13]
         self.expierence = 0
         self.primary_weapon = None
         self.inventory = []

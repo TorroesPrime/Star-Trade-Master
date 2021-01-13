@@ -1,663 +1,431 @@
-Name: Walk the Horizon's Pride v.01
-Description: Just a test file that builds out a map.
+Price of Hubris v.01
+Description: +++To: Lord GeneraL CasTus IaCTon+++
++++From: Keybor Tayne, PrImary LexoGraPher+++
++++subjeCT: ConTaCT hIsTory wITh aurum+++
+as requested, I have compiled a chronological account of our attempts to establish
+relations with the natives of the planet designated: aurum. The following shows a repeated
+pattern of rejecting diplomats, supporting your assessment that military envoys may be
+better received.
+787.m41: First contact made by naval survey team. reception is neutral. Post-contact analysis
+reveals extreme resource value of planet. aurum is made high priority for re-indoctrination.
+789.m41: Larger contact envoy sent to aurum, including adeptus ministorum and adeptus
+administratum representation. negotiations quickly deteriorate, although adepts confirm
+Imperial cultural roots before being forced to leave planet.
+791.m41: Captain Laurel mattheos of Imperial navy and squad of armed crewmen force contact.
+Contingent is unexpectedly well-received. reach agreement to allow Imperial presence in
+capital city: haistand.
+798.m41: Captain mattheos killed in action, negotiations resumed by rogue Trader diaz Lan.
+reach agreement to allow small military outpost for protection of growing non-combatant
+population in haistand. Construction begins on “The aspirance.”
+802.m41: rogue Trader diaz Lan repeats contact. negotiations fail to allow Imperial presence
+to extend beyond haistand.
+809.m41: rogue Trader diaz Lan re-opens negotiation on previous topic. attempts to win
+support by participating in local combat games. departs planet in critical condition from
+reptile bites.
+816.m41: rogue Trader diaz Lan repeats contact. aurans rebuff Lan and refuse to honour
+future negotiations with him on grounds he is “not a man.”
++++The emperor Protects+++
+This world is critical to the Crusade. If these primitives
+only respect strength, we will send them the Deathwatch.
+One way or the other, Aurum will be brought into
+compliance.
+–Inquisitor Quist
 Version:RT001
 ===
 Rooms:
 Command Deck
-Sturdy glass panels depicting stellar bodies alternate with ancient cogitators and sensorium reporters. Every luminator is held aloft by a lifelike statue, and the eye can travel no more than a few centimetres without encountering some surface inlaid with precious stone or metal. The command throne sits recessed in the rear wall with an arch of cherubs carved above it.
-contents:
-NPCs:
+Sturdy glass panels
+depicting stellar bodies alternate with ancient cogitators and sensorium reporters. Every luminator is held aloft by a lifelike statue, and the eye can travel no more than a few centimetres without encountering some surface inlaid with precious stone or metal. The command throne sits recessed in the rear wall with an arch of cherubs carved above it.
 ---
 Navigation Deck
 The lower deck of the bridge is rimmed by various consoles and terminals, some of them are manned by human crew members. Others are semi-permenently controlled by servitors.
-contents:
-NPCs:
 ---
 Officer Room #1
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
-contents:
-NPCs:
 ---
 Officer Room #2
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
-contents:
-NPCs:
 ---
 Officer Room #3
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
-contents:
-NPCs:
 ---
 Officer Room #4
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
-contents:
-NPCs:
 ---
 Officer Room #5
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
-contents:
-NPCs:
 ---
 Officer Room #6
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
-contents:
-contents:
-NPCs:
 ---
 State Room #1
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #1
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #2
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #3
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #4
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #5
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #6
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State Room #7
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
-contents:
-NPCs:
 ---
 State hall #1
 It is a large hall. The plackard on the wall indicated that you are in section 1.
-contents:
-NPCs:
 ---
 State hall #2
 It is a large hall. The plackard on the wall indicated that you are in section 2.
-contents:
-NPCs:
 ---
 State hall #3
 It is a large hall. The plackard on the wall indicated that you are in section 3.
-contents:
-NPCs:
 ---
 State hall #4
 It is a large hall. The plackard on the wall indicated that you are in section 4.
-contents:
-NPCs:
 ---
 State hall #5
 It is a large hall. The plackard on the wall indicated that you are in section 5.
-contents:
-NPCs:
 ---
 State hall #6
 It is a large hall. The plackard on the wall indicated that you are in section 6.
-contents:
-NPCs:
 ---
 State hall #7
 It is a large hall. The plackard on the wall indicated that you are in section 7.
-contents:
-NPCs:
 ---
 Lan's Study
 The room is adorned in numerous items of various value, bot in terms of money and in scholarly pursuits.
-contents:
-NPCs:
 ---
 Observatory
 The large domed room shows a wonderous visage of space.
-contents:
-NPCs:
 ---
 Starboard Main hall 01
 [description needed of Starboard Main Hall 01]
-contents:
-NPCs:
 ---
 Engineering Deck 01
 [description needed of Engineering Deck 01]
-contents:
-NPCs:
 ---
 Servitor Bay #1
 [description needed of Servitor Bay #1]
-contents:
-NPCs:
 ---
 Intersection 01
 [description of intersection 01]
-contents:
-NPCs:
 ---
 Intersection 02
 [description of intersection 02]
-contents:
-NPCs:
 ---
 Shuttle Bay
 [description of shuttle bay]
-contents:
-NPCs:
 ---
 "Golden Voyage"
 [description of "Golden Voyage]
-contents:
-NPCs:
 ---
 Imperial Guard Base Landing Zone
 [description of Imperial Guard Base Landing Zone]
-contents:
-NPCs:
 ---
 Guard Armory
 [description of Guard Armory]
-contents:
-NPCs:
 ---
 Guard Barracks Alpha
 [description of Guard Barracks Alpha]
-contents:
-NPCs:
 ---
 Guard Barracks Beta
 [description of Guard Barracks Beta]
-contents:
-NPCs:
 ---
 Guard Barracks Delta
 [description of Guard Barracks Beta]
-contents:
-NPCs:
 ---
 Guard Mess Hall
 [description of Guard Barracks Beta]
-contents:
-NPCs:
 ---
 Parade Ground North
 [description of Parade Ground North]
-contents:
-NPCs:
 ---
 Parade Ground Center
 [description of Parade Ground North]
-contents:
-NPCs:
 ---
 Parade Ground South
 [description of Parade Ground South]
-contents:
-NPCs:
 ---
 Word of Faith Monestary
 [description of Word of Faith Monestary]
-contents:
-NPCs:
 ---
 Snaking Accent #1
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #2
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #3
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #4
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #5
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #6
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #7
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #8
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #9
 [description]
-contents:
-NPCs:
 ---
 Snaking Accent #10
 [description]
-contents:
-NPCs:
 ---
 Archibel Heth's Office
 [description of Archibel Heth's Office]
-contents:
-NPCs:
 ---
 Port Main Hall 01
 [description of Port Main Hall 01]
-contents:
-NPCs:
 ---
 Port Main Hall 02
 [description of Port Main Hall 02]
-contents:
-NPCs:
 ---
 Port Main Hall 03
 [description of Port Main Hall 01]
-contents:
-NPCs:
 ---
 Brig 01
 [description of the brig]
-contents:
-NPCs:
 ---
 Crew Deck
 [description of the crew deck]
-contents:
-NPCs:
 ---
 Mess Hall
 [description of mess hall]
-contents:
-NPCs:
 ---
 Security Station
 [description of security Station]
-contents:
-NPCs:
 ---
 Firing Range
 [description of the Firing Range]
-contents:
-NPCs:
 ---
 Cale Homestead Entrance
 [description of Cale Homestead Entrance]
-contents:
-NPCs:
 ---
 Hall of Victories
 [description of Hall of Victories]
-contents:
-NPCs:
 ---
 Zayr's Residence
 [description of Zayr's Residence]
-contents:
-NPCs:
 ---
 Cale Homestead common area
 [description of Cale Homestead common area]
-contents:
-NPCs:
 ---
 Cale's Great Hall
 [description of Cale's Great Hall]
-contents:
-NPCs:
 ---
 Warrior's Residence
 [description of Warrior's Residence]
-contents:
-NPCs:
 ---
 Commerce Aisle #1
 [description of Commerce Aisle #1]
-contents:
-NPCs:
 ---
 Commerce Aisle #2
 [description of Commerce Aisle #2]
-contents:
-NPCs:
 ---
 Commerce Aisle #3
 [description of Commerce Aisle #3]
-contents:
-NPCs:
 ---
 Northern Trail #1
 [description of Northern Trail #1]
-contents:
-NPCs:
 ---
 Northern Trail #2
 [description of Northern Trail #2]
-contents:
-NPCs:
 ---
 Northern Trail #3
 [description of Northern Trail #3]
-contents:
-NPCs:
 ---
 Northern Trail #4
 [description of Northern Trail #4]
-contents:
-NPCs:
 ---
 Northern Trail #5
 [description of Northern Trail #5]
-contents:
-NPCs:
 ---
 Northern Trail #6
 [description of Northern Trail #6]
-contents:
-NPCs:
 ---
 Northern Trail #7
 [description of Northern Trail #7]
-contents:
-NPCs:
 ---
 Northern Trail #8
 [description of Northern Trail #8]
-contents:
-NPCs:
 ---
 Northern Trail #9
 [description of Northern Trail #9]
-contents:
-NPCs:
 ---
 Northern Trail #10
 [description of Northern Trail #10]
-contents:
-NPCs:
 ---
 Southern Trail #1
 [description of Southern Trail #1]
-contents:
-NPCs:
 ---
 Southern Trail #2
 [description of Southern Trail #2]
-contents:
-NPCs:
 ---
 Southern Trail #3
 [description of Southern Trail #3]
-contents:
-NPCs:
 ---
 Southern Trail #4
 [description of Southern Trail #4]
-contents:
-NPCs:
 ---
 Western Trail #1
 [description of Western Trail #1]
-contents:
-NPCs:
 ---
 Western Trail #2
 [description of Western Trail #2]
-contents:
-NPCs:
 ---
 Western Trail #3
 [description of Western Trail #3]
-contents:
-NPCs:
 ---
 Western Trail #4
 [description of Western Trail #4]
-contents:
-NPCs:
 ---
 Black Pits Entrance
 [description of Black Pits Entrance]
-contents:
-NPCs:
 ---
 The Black Pits
 [description of the The Black Pits]
-contents:
-NPCs:
 ---
 Pit #1
 [description of Pit #1]
-contents:
-NPCs:
 ---
 Pit #2
 [description of Pit #2]
-contents:
-NPCs:
 ---
 Pit #3
 [description of Pit #3]
-contents:
-NPCs:
 ---
 Pit #4
 [description of Pit #4]
-contents:
-NPCs:
 ---
 Pit #5
 [description of Pit #5]
-contents:
-NPCs:
 ---
 Hidden Cave
 [description of the hidden cave]
-contents:
-NPCs:
 ---
 Southern Trail Clearing
 [description of Southern Trail Clearing]
-contents:
-NPCs:
 ---
 Eastern Path #1
 [description of Eastern Path #1]
-contents:
-NPCs:
 ---
 Eastern Path #2
 [description of Eastern Path #2]
-contents:
-NPCs:
 ---
 Eastern Path #3
 [description of Eastern Path #3]
-contents:
-NPCs:
 ---
 grensvayl entrance
 [description OF grensvayl entrance]
-contents:
-NPCs:
 ---
 Argrox Stall #1
 [description OF Argrox Stall #1]
-contents:
-NPCs:
 ---
 Argrox Stall #2
 [description OF Argrox Stall #2]
-contents:
-NPCs:
 ---
 Argrox Stall #3
 [description OF Argrox Stall #3]
-contents:
-NPCs:
 ---
 Argrox Stall #4
 [description OF Argrox Stall #4]
-contents:
-NPCs:
 ---
 Argrox Stall field #1
 [description of Argrox Stall field #1]
-contents:
-NPCs:
 ---
 Argrox Stall field #2
 [description of Argrox Stall field #2]
-contents:
-NPCs:
 ---
 Argrox Stall field #3
 [description of Argrox Stall field #3]
-contents:
-NPCs:
 ---
 Argrox Stall field #4
 [description of Argrox Stall field #4]
-contents:
-NPCs:
 ---
 Argrox Stall field #5
 [description of Argrox Stall field #5]
-contents:
-NPCs:
 ---
 field path#1
 [description of field path#1]
-contents:
-NPCs:
 ---
 field path#2
 [description of field path#2]
-contents:
-NPCs:
 ---
 Stables
 [description of the stables]
-contents:
-NPCs:
 ---
 store house 2 #2
 [description of store house 2 #2]
-contents:
-NPCs:
 ---
 store house 2 #1
 [description of store house 2 #1]
-contents:
-NPCs:
 ---
 store house 1 #2
 [description of store house 1 #2]
-contents:
-NPCs:
 ---
 store house 1 #1
 [description of store house 1 #1]
-contents:
-NPCs:
 ---
 grensvayl path
 [description of grensvayl path]
-contents:
-NPCs:
 ---
 grensvayl path
 [description of the grensvayl path]
-contents:
-NPCs:
 ---
 Weapon Smith
 [description of the Weapon Smith shop]
-contents:
-NPCs:
 ---
 grensvayl path
 [description of the grensvayl path]
-contents:
-NPCs:
 ---
 grensvayl path
 [description of the grensvayl path]
-contents:
-NPCs:
 ---
 Lodge
 [description of the lodge]
-contents:
-NPCs:
 ---
 Cave Entrance
 [description of the Cave Entrance]
-contents:
-NPCs:
 ---
 Cave Hallways #1
 [description of the Cave Hallways #1]
-contents:
-NPCs:
 ---
 Cave Hallways #2
 [description of the Cave Hallways #2]
-contents:
-NPCs:
 ---
 Cave Hallways #3
 [description of the Cave Hallways #3]
-contents:
-NPCs:
 ---
 Large Excavation Chamber
 [description of the Large Excavation Chamber]
-contents:
-NPCs:
 ---
 Small Chamber
 [description of the Small Chamber]
-contents:
-NPCs:
 ---
 "Golden Voyage" Shuttle (docked)
 [description of the "Golden Voyage" shuttle (docked)]
-contents:
-NPCs:
 ---
 "Golden Voyage" Shuttle (landed)
 [description of the "Golden Voyage" shuttle (landed)]
-contents:
-NPCs:
 ---
 ===
 Exits:
@@ -991,915 +759,233 @@ launch
 "Golden Voyage" Shuttle (landed)
 locked[200]"You can not launch a shuttle while the Horizon's Pride is in transit.""The lush world of Aurum is visible through the enviromental field. The various crew members move about prepping the shuttle waiting for you're choice to head to the planet."
 ---
-"Golden Voyage" Shuttle (landed)
-leave
 Imperial Guard Base Landing Zone
-unlocked
----
-Guard Armory
-s
-Guard Barracks Alpha
-unlocked
----
-Guard Barracks Alpha
-n
-Guard Armory
-unlocked
----
-Guard Barracks Alpha
-s
-Guard Barracks Bravo
-unlocked
----
-Guard Barracks Bravo
-n
-Guard Barracks Alpha
-unlocked
----
-Guard Barracks Bravo
-s
-Guard Barracks Delta
-unlocked
----
-Guard Barracks Delta
-n
-Guard Barracks Bravo
-unlocked
----
-Guard Barracks Delta
-s
-Guard Mess Hall
-unlocked
----
-Guard Mess Hall
-n
-Guard Barracks Delta
-unlocked
----
-Guard Barracks Delta
-e
-Parade Ground south
-unlocked
----
-Parade Ground south
-w
-Guard Barracks Delta
-unlocked
----
-Parade Ground center
-w
-Guard Barracks Bravo
-unlocked
----
-Guard Barracks Bravo
-e
-Parade Ground center
-unlocked
----
-Parade Ground north
-w
-Guard Barracks Alpha
-unlocked
----
-Guard Barracks Alpha
-e
-Parade Ground north
-unlocked
----
-Parade Ground north
-s
-Parade Ground center
-unlocked
----
-Parade Ground center
-n
-Parade Ground north
-unlocked
----
-Parade Ground center
-s
-Parade Ground south
-unlocked
----
-Parade Ground south
-n
-Parade Ground center
-unlocked
----
-Parade Ground south
-s
-Word of Faith Monestary
-unlocked
----
-Word of Faith Monestary
-n
-Parade Ground south
-unlocked
----
-Word of Faith Monestary
-s
-Snaking Accent #1
-unlocked
----
-Snaking Accent #1
-n
-Word of Faith Monestary
-unlocked
----
-Snaking Accent #1
-s
-Snaking Accent #2
-unlocked
----
-Snaking Accent #2
-n
-Snaking Accent #1
-unlocked
----
-Snaking Accent #2
-s
-Snaking Accent #3
-unlocked
----
-Snaking Accent #3
-n
-Snaking Accent #2
-unlocked
----
-Snaking Accent #3
-s
-Snaking Accent #4
-unlocked
----
-Snaking Accent #4
-n
-Snaking Accent #3
-unlocked
----
-Snaking Accent #4
-s
-Snaking Accent #5
-unlocked
----
-Snaking Accent #5
-n
-Snaking Accent #4
-unlocked
----
-Snaking Accent #5
-s
-Snaking Accent #5
-unlocked
----
-Snaking Accent #6
-n
-Snaking Accent #5
-unlocked
----
-Snaking Accent #6
-e
-Snaking Accent #7
-unlocked
----
-Snaking Accent #7
-w
-Snaking Accent #6
-unlocked
----
-Snaking Accent #7
-e
-Snaking Accent #8
-unlocked
----
-Snaking Accent #8
-w
-Snaking Accent #7
-unlocked
----
-Snaking Accent #1
-ne
-Imperial Guard Base Landing Zone
-unlocked
----
-Imperial Guard Base Landing Zone
-sw
-Snaking Accent #1
-unlocked
----
-Imperial Guard Base Landing Zone
-w
-Parade Ground center
-unlocked
----
-Parade Ground center
-e
-Imperial Guard Base Landing Zone
-unlocked
----
-Brig 01
-e
-Port Main Hall 03
-unlocked
----
-Port Main Hall 03
-w
-Brig 01
-unlocked
----
-Port Main Hall 03
-s
-Port Main Hall 02
-unlocked
----
-Port Main Hall 02
-n
-Port Main Hall 03
-unlocked
----
-Port Main Hall 03
-e
-Security Station
-unlocked
----
-Security Station
-w
-Port Main Hall 03
-unlocked
----
-Port Main Hall 02
-e
-Mess Hall
-unlocked
----
-Mess Hall
-w
-Port Main Hall 02
-unlocked
----
-Port Main Hall 02
-s
-Port Main Hall 01
-unlocked
----
-Port Main Hall 01
-n
-Port Main Hall 02
-unlocked
----
-Port Main Hall 01
-e
-Crew Deck
-unlocked
----
-Crew Deck
-w
-Port Main Hall 01
-unlocked
----
-Imperial Guard Base Landing Zone
-e
-Archibal Heth's Office
-unlocked
----
-Archibal Heth's Office
-w
-Imperial Guard Base Landing Zone
-unlocked
----
-Snaking Accent #8
-e
-Snaking Accent #9
-unlocked
----
-Snaking Accent #9
-w
-Snaking Accent #8
-unlocked
----
-Snaking Accent #9
-e
-Snaking Accent #10
-unlocked
----
-Snaking Accent #10
-w
-Snaking Accent #9
-unlocked
----
-Security Station
-e
-Firing Range
-unlocked
----
-Firing Range
-w
-Security Station
-unlocked
----
-Commerce Aisles #3
-ne
-Commerce Aisles #2
-unlocked
----
-Commerce Aisles #2
-sw
-Commerce Aisles #3
-unlocked
----
-Commerce Aisles #2
-ne
-Commerce Aisles #1
-unlocked
----
-Commerce Aisles #1
-sw
-Commerce Aisles #2
-unlocked
----
-Snaking Accent #10
-e
-Cale Homestead entrance
-unlocked
----
-Cale Homestead entrance
-w
-Snaking Accent #10
-unlocked
----
-Commerce Aisles #1
-ne
-Cale Homestead Common Area
-unlocked
----
-Cale Homestead Common Area
-sw
-Commerce Aisles #1
-unlocked
----
-Cale Homestead entrance
-e
-Cale Homestead Common Area
-unlocked
----
-Cale Homestead Common Area
-w
-Cale Homestead entrance
-unlocked
----
-Hall of victories
-se
-Cale Homestead Common Area
-unlocked
----
-Cale Homestead Common Area
-ne
-Hall of victories
-unlocked
----
-Zayr's Residence
-s
-Cale Homestead Common Area
-unlocked
----
-Cale Homestead Common Area
-n
-Zayr's Residence
-unlocked
----
-Cale Homestead Common Area
-s
-Southern Trail #1
----
-Southern Trail #1
-n
-Cale Homestead Common Area
----
-Southern Trail #1
-s
-Southern Trail #2
----
-Southern Trail #2
-n
-Southern Trail #1
----
-Southern Trail #2
-s
-Southern Trail #3
----
-Southern Trail #3
-n
-Southern Trail #2
----
-Southern Trail #3
-s
-Southern Trail #4
----
-Southern Trail #4
-n
-Southern Trail #3
----
-Southern Trail #4
-s
-Southern Trail clearing
----
-Southern Trail clearing
-n
-Southern Trail #4
----
-Southern Trail clearing
-w
-Western path #1
----
-Western path #1
-e
-Southern Trail clearing
----
-Western path #1
-w
-Western path #2
----
-Western path #2
-e
-Western path #1
----
-Western path #2
-w
-Western path #3
----
-Western path #3
-e
-Western path #2
----
-Western path #3
-w
-Western path #4
----
-Western path #4
-e
-Western path #3
----
-Western path #4
-w
-The Black Pits Entrance
----
-The Black Pits Entrance
-e
-Western path #4
----
-The Black Pits Entrance
-w
-The Black Pits #1
----
-The Black Pits #1
-e
-The Black Pits Entrance
----
-The Black Pits #1
-e
-Pit #1
----
-Pit #1
-sw
-The Black Pits #1
----
-The Black Pits #1
-ne
-Pit #2
----
-Pit #2
-w
-The Black Pits #1
----
-The Black Pits #1
-nw
-Pit #3
----
-Pit #3
-se
-The Black Pits #1
----
-The Black Pits #1
-w
-Pit #4
----
-Pit #4
-e
-The Black Pits #1
----
-The Black Pits #1
-sw
-Pit #5
----
-Pit #5
-ne
-The Black Pits #1
----
-Pit #5
-w
-Hidden Cave
----
-Hidden Cave
-e
-Pit #5
----
-Southern Trail clearing
-e
-eastern path #1
----
-eastern path #1
-w
-Southern Trail clearing
----
-eastern path #1
-e
-eastern path #2
----
-eastern path #2
-w
-eastern path #1
----
-eastern path #2
-w
-eastern path #3
----
-eastern path #3
-e
-eastern path #2
----
-eastern path #3
-e
-grensvayl entrance
----
-grensvayl entrance
-w
-eastern path #3
----
-Argrox Stall #1
-n
-Argrox Stall #2
----
-Argrox Stall #2
-s
-Argrox Stall #1
----
-Argrox Stall #2
-n
-Argrox Stall #3
----
-Argrox Stall #3
-s
-Argrox Stall #2
----
-Argrox Stall #3
-n
-Argrox Stall #4
----
-Argrox Stall #4
-s
-Argrox Stall #3
----
-Cale Homestead Common Area
-se
-Warriors Residence
----
-Warriors Residence
-nw
-Cale Homestead Common Area
----
-Cale Homestead Common Area
-e
-Cale's Great Hall
----
-Cale's Great Hall
-w
-Cale Homestead Common Area
----
-Cale Homestead Common Area
-ne
-Northern Trail #1
----
-Northern Trail #1
-sw
-Cale Homestead Common Area
----
-Northern Trail #1
-e
-Northern Trail #2
----
-Northern Trail #2
-w
-Northern Trail #1
----
-Northern Trail #2
-w
-Northern Trail #3
----
-Northern Trail #3
-e
-Northern Trail #2
----
-Northern Trail #3
-e
-Northern Trail #4
----
-Northern Trail #4
-w
-Northern Trail #3
----
-Northern Trail #4
-w
-Northern Trail #5
----
-Northern Trail #5
-e
-Northern Trail #4
----
-Northern Trail #5
-e
-Northern Trail #6
----
-Northern Trail #6
-w
-Northern Trail #5
----
-Northern Trail #6
-e
-Northern Trail #7
----
-Northern Trail #7
-w
-Northern Trail #6
----
-Northern Trail #7
-e
-Northern Trail #8
----
-Northern Trail #8
-w
-Northern Trail #7
----
-Northern Trail #8
-e
-Northern Trail #9
----
-Northern Trail #9
-w
-Northern Trail #8
----
-Northern Trail #9
-e
-Northern Trail #10
----
-Northern Trail #10
-w
-Northern Trail #9
----
-Argrox Stall #4
-e
-Argrox Stall field #4
----
-Argrox Stall field #4
-w
-Argrox Stall #4
----
-Argrox Stall field #4
-n
-Argrox Stall field #5
----
-Argrox Stall field #5
-s
-Argrox Stall field #4
----
-field path #1
-w
-Argrox Stall field #5
----
-field path #1
-e
-field path #2
----
-field path #2
-w
-field path #1
----
-field path #2
-s
-stables
----
-stables
-n
-field path #2
----
-Argrox Stall field #4
-w
-Store house 2 #2
----
-Store house 2 #2
-e
-Argrox Stall field #4
----
-Argrox Stall field #4
-s
-Argrox Stall field #3
----
-Argrox Stall field #3
-n
-Argrox Stall field #4
----
-Argrox Stall field #3
-s
-Argrox Stall field #2
----
-Argrox Stall field #2
-n
-Argrox Stall field #3
----
-Argrox Stall field #3
-w
-Argrox Stall #3
----
-Argrox Stall #3
-e
-Argrox Stall field #3
----
-Argrox Stall #2
-e
-Argrox Stall field #2
----
-Argrox Stall field #2
-w
-Argrox Stall #2
----
-Argrox Stall field #2
-s
-Argrox Stall field #1
----
-Argrox Stall field #1
-n
-Argrox Stall field #2
----
-Argrox Stall field #1
-w
-Argrox Stall #1
----
-Argrox Stall #1
-e
-Argrox Stall field #1
----
-Argrox Stall field #1
-s
-grensvayl path
----
-grensvayl path
-n
-Argrox Stall field #1
----
-grensvayl entrance
-e
-grensvayl path
----
-grensvayl path
-w
-grensvayl entrance
----
-grensvayl path
-s
-lodge
----
-lodge
-n
-grensvayl path
----
-grensvayl path
-w
-grensvayl path
----
-grensvayl path
-e
-grensvayl path
----
-Store house 1 #1
-w
-Argrox Stall field #1
----
-Argrox Stall field #1
-e
-Store house 1 #1
----
-Store house 1 #1
-w
-Argrox Stall field #1
----
-Store house 1 #1
-n
-Store house 1 #2
----
-Store house 1 #2
-s
-Store house 1 #1
----
-Store house 1 #2
-w
-Argrox Stall field #2
----
-Argrox Stall field #2
-e
-Store house 1 #2
----
-Argrox Stall field #3
-e
-Store house 2 #1
----
-Store house 2 #1
-w
-Argrox Stall field #3
----
-Store house 2 #1
-s
-Store house 2 #2
----
-Store house 2 #2
-n
-Store house 2 #1
----
-Weapon Smith
-s
-grensvayl path_1
----
-grensvayl path_1
-n
-Weapon Smith
----
-grensvayl path
-e
-grensvayl path_1
----
-grensvayl path_1
-w
-grensvayl path
----
-grensvayl path_2
-e
-grensvayl path_1
----
-grensvayl path_2
-w
-grensvayl path_1
----
-grensvayl path_1
-s
-cave entrance
----
-cave entrance
-n
-grensvayl path_1
----
-cave entrance
-s
-Cave hall way #1
----
-Cave hall way #1
-n
-cave entrance
----
-Cave hall way #1
-s
-Cave hall way #2
----
-Cave hall way #2
-n
-Cave hall way #1
----
-Cave hall way #2
-s
-Cave hall way #3
----
-Cave hall way #3
-n
-Cave hall way #2
----
-Cave hall way #3
-w
-transportation chamber
----
-transportation chamber
-e
-Cave hall way #3
----
-Cave hall way #3
-e
-Small chamber
----
-Small chamber
-w
-Cave hall way #3
----
-Cave hall way #3
-s
-Large Excavation chamber
----
-Large Excavation chamber
-n
-Cave hall way #3
----
+launch
+destination room
+unlocked
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+source room
+dir
+destination room
+---
+
 ===

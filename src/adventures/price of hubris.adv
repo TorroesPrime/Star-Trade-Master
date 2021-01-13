@@ -1,663 +1,742 @@
-Name: Walk the Horizon's Pride v.01
-Description: Just a test file that builds out a map.
+Price of Hubris v.01
+Description: +++To: Lord GeneraL CasTus IaCTon+++
++++From: Keybor Tayne, PrImary LexoGraPher+++
++++subjeCT: ConTaCT hIsTory wITh aurum+++
+as requested, I have compiled a chronological account of our attempts to establish relations with the natives of the planet designated: aurum. The following shows a repeated pattern of rejecting diplomats, supporting your assessment that military envoys may be better received.
+787.m41: First contact made by naval survey team. reception is neutral. Post-contact analysis reveals extreme resource value of planet. aurum is made high priority for re-indoctrination.
+789.m41: Larger contact envoy sent to aurum, including adeptus ministorum and adeptus administratum representation. negotiations quickly deteriorate, although adepts confirm Imperial cultural roots before being forced to leave planet.
+791.m41: Captain Laurel mattheos of Imperial navy and squad of armed crewmen force contact. Contingent is unexpectedly well-received. reach agreement to allow Imperial presence in capital city: haistand.
+798.m41: Captain mattheos killed in action, negotiations resumed by rogue Trader diaz Lan. Reach agreement to allow small military outpost for protection of growing non-combatant population in haistand. Construction begins on “The aspirance.”
+802.m41: rogue Trader diaz Lan repeats contact. negotiations fail to allow Imperial presence to extend beyond haistand.
+809.m41: rogue Trader diaz Lan re-opens negotiation on previous topic. attempts to win support by participating in local combat games. departs planet in critical condition from reptile bites.
+816.m41: rogue Trader diaz Lan repeats contact. aurans rebuff Lan and refuse to honour future negotiations with him on grounds he is “not a man.”
++++The emperor Protects+++
+This world is critical to the Crusade. If these primitives only respect strength, we will send them the Deathwatch. One way or the other, Aurum will be brought into compliance.
+–Inquisitor Quist
 Version:RT001
+===
+NPCs:
+Alkedre FireStalker
+55
+32
+50
+45
+48
+46
+52
+45
+44
+Aurum
+protection
+female
+26
+Awareness(perception),climb(strength),command(fellowship),Concealment (Agility), Dodge (Agility) +20, Intimidate (Strength) +10,Scrutiny (perception) +20, Silent Move (Agility), Survival (Intelligence) +10,Swim (Strength), Tracking (Intelligence), Wrangling (Intelligence) +10.
+Basic Weapon Training (Primitive), Counter Attack,Crushing Blow, Lightning Attack, Melee Weapon Training(Primitive), Swift Attack, Wall of Steel.
+---
+Diaz Lan
+38
+52
+35
+41
+44
+52
+43
+39
+47
+Devo Sierra
+Profit
+male
+17
+39
+Awareness (perception), Carouse (toughness), Charm (fellowship) +20,Command (fellowship) +10, Common Lore (Imperium), Common Lore (Jericho Reach), Common Lore (Koronus Expanse),  Common Lore (Rogue Traders), Deceive (fellowship),Dodge (Agility), Evaluate (Intelligence) +10, Forbidden Lore (Xenos), Literacy (Intelligence) +10, Pilot (Space Craft) +20,Scholastic Lore (Astromancy), Scrutiny (Perception), SpeakLanguage (Low Gothic, High Gothic, Eldar), Tactics (Intelligence), Tech-Use (intelligence)
+Air of Authority, Ambidextrous, Deadeye Shot, Master Orator, Melee Weapon Training (Universal), Mighty Shot, Peer (Imperial Navy), Pistol Weapon Training (Universal), Nerves of Steel, Quick Draw, Step Aside, Touched by the Fates (2), Two-Weapon Wielder (Ballistic).
+“Thank you for seeing me. I would offer you a seat or a draft of amasec, but I find myself a bit ah –short-staffed at the moment. Not to question your hospitality of course.” A salvo of exploding melta charges booms behind him, momentarily illuminating the snow field.
+“My humblest apologies if you have already heard something of our plight. I will be frank with you. The Lord Militant believes that some kind of alien creature has descended upon Aurum. I’m sure venerable warriors such as yourselves will be more than a match for it. However, the truth that the Crusade needs your help in another matter on that planet—possibly one that only you can address. Aurum is a valuable world, and its people did not turn to dark powers during the Age of Shadow.”
+"However, they have proved remarkably resistant to negotiation. Their leader, a devil of a warrior who calls himself Rylus Darkscourge, won’t permit any sizeable Imperial detachments to land, nor will he allow our people to stray beyond their capital city. Some over-zealous prospectors tried to stray beyond these edicts once, and their deaths nearly shattered our fragile peace. The Aurans are a proud people, and the truth is I think they’re not impressed by us. We could pacify the world, but the last thing we need is one more population held by force instead of faith.” Behind him, the black outlines of the drilling Kill-team appear like shadows in the man-made blizzard. He watches their perfectly coordinated movements for a moment before turning back. “You may find this ironic, but the Adeptus Astartes might be our last chance for peace on Aurum.”
+“Her body was found in the Mission, with her own dagger through her chest. The locals were eager to call it a suicide due to a weak spirit. She may not have been a Sister of Battle, but no loyal member of her order would throw away her life. And there have been other deaths. Perhaps just a few, perhaps many. It’s hard to say as the Aurans seem to be concealing them from us. The few bodies we’ve seen were meticulously stripped of everything: flesh, skin, blood. Some had deep grooves in the ribcage and arms, as though something had cleaved through to the bone itself.” 
+"Since the Imperium has been unable to survey beyond Haistand, some sort of xenos could easily occupy other regions of the planet. Perhaps the Aurans even know. I shudder to think that they may even be thrall to some alien presence we know nothing about. It could be why they are so insistent not to let us go beyond the single city. Whatever is behind this, I’d say there is more than the Imperium bargained for on Aurum.”
+---
+[name]
+[weapon skill]
+[ballistic skill]
+[strength]
+[toughness]
+[agility]
+[intelligence]
+[perception]
+[will power]
+[fellowship]
+[home_world]
+[motivation]
+[gender]
+[wounds]
+[age]
+[skills]
+[traits]
+---
+===
+Items:
+[name]
+[description]
+[weight]
+[actions]
 ===
 Rooms:
 Command Deck
 Sturdy glass panels depicting stellar bodies alternate with ancient cogitators and sensorium reporters. Every luminator is held aloft by a lifelike statue, and the eye can travel no more than a few centimetres without encountering some surface inlaid with precious stone or metal. The command throne sits recessed in the rear wall with an arch of cherubs carved above it.
 contents:
-NPCs:
+NPCs Present:
 ---
 Navigation Deck
 The lower deck of the bridge is rimmed by various consoles and terminals, some of them are manned by human crew members. Others are semi-permenently controlled by servitors.
 contents:
-NPCs:
+NPCs Present:
 ---
 Officer Room #1
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
 contents:
-NPCs:
+NPCs Present:
 ---
 Officer Room #2
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
 contents:
-NPCs:
+NPCs Present:
 ---
 Officer Room #3
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
 contents:
-NPCs:
+NPCs Present:
 ---
 Officer Room #4
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
 contents:
-NPCs:
+NPCs Present:
 ---
 Officer Room #5
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
 contents:
-NPCs:
+NPCs Present:
 ---
 Officer Room #6
 Officers of the ship are granted a larger room, more of a suite, then the crew persons.
 contents:
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #1
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #1
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #2
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #3
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #4
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #5
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #6
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State Room #7
 This large suite is reserved for important passangers. It is large, ornate and lavishally addorned with fine silks and tapestries.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #1
 It is a large hall. The plackard on the wall indicated that you are in section 1.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #2
 It is a large hall. The plackard on the wall indicated that you are in section 2.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #3
 It is a large hall. The plackard on the wall indicated that you are in section 3.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #4
 It is a large hall. The plackard on the wall indicated that you are in section 4.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #5
 It is a large hall. The plackard on the wall indicated that you are in section 5.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #6
 It is a large hall. The plackard on the wall indicated that you are in section 6.
 contents:
-NPCs:
+NPCs Present:
 ---
 State hall #7
 It is a large hall. The plackard on the wall indicated that you are in section 7.
 contents:
-NPCs:
+NPCs Present:
 ---
 Lan's Study
 The room is adorned in numerous items of various value, bot in terms of money and in scholarly pursuits.
 contents:
-NPCs:
+NPCs Present:
 ---
 Observatory
 The large domed room shows a wonderous visage of space.
 contents:
-NPCs:
+NPCs Present:
 ---
 Starboard Main hall 01
 [description needed of Starboard Main Hall 01]
 contents:
-NPCs:
+NPCs Present:
 ---
 Engineering Deck 01
 [description needed of Engineering Deck 01]
 contents:
-NPCs:
+NPCs Present:
 ---
 Servitor Bay #1
 [description needed of Servitor Bay #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Intersection 01
 [description of intersection 01]
 contents:
-NPCs:
+NPCs Present:
 ---
 Intersection 02
 [description of intersection 02]
 contents:
-NPCs:
+NPCs Present:
 ---
 Shuttle Bay
 [description of shuttle bay]
 contents:
-NPCs:
+NPCs Present:
 ---
 "Golden Voyage"
 [description of "Golden Voyage]
 contents:
-NPCs:
+NPCs Present:
 ---
 Imperial Guard Base Landing Zone
 [description of Imperial Guard Base Landing Zone]
 contents:
-NPCs:
+NPCs Present:
 ---
 Guard Armory
 [description of Guard Armory]
 contents:
-NPCs:
+NPCs Present:
 ---
 Guard Barracks Alpha
 [description of Guard Barracks Alpha]
 contents:
-NPCs:
+NPCs Present:
 ---
 Guard Barracks Beta
 [description of Guard Barracks Beta]
 contents:
-NPCs:
+NPCs Present:
 ---
 Guard Barracks Delta
 [description of Guard Barracks Beta]
 contents:
-NPCs:
+NPCs Present:
 ---
 Guard Mess Hall
 [description of Guard Barracks Beta]
 contents:
-NPCs:
+NPCs Present:
 ---
 Parade Ground North
 [description of Parade Ground North]
 contents:
-NPCs:
+NPCs Present:
 ---
 Parade Ground Center
 [description of Parade Ground North]
 contents:
-NPCs:
+NPCs Present:
 ---
 Parade Ground South
 [description of Parade Ground South]
 contents:
-NPCs:
+NPCs Present:
 ---
 Word of Faith Monestary
 [description of Word of Faith Monestary]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #1
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #2
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #3
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #4
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #5
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #6
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #7
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #8
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #9
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Snaking Accent #10
 [description]
 contents:
-NPCs:
+NPCs Present:
 ---
 Archibel Heth's Office
 [description of Archibel Heth's Office]
 contents:
-NPCs:
+NPCs Present:
 ---
 Port Main Hall 01
 [description of Port Main Hall 01]
 contents:
-NPCs:
+NPCs Present:
 ---
 Port Main Hall 02
 [description of Port Main Hall 02]
 contents:
-NPCs:
+NPCs Present:
 ---
 Port Main Hall 03
 [description of Port Main Hall 01]
 contents:
-NPCs:
+NPCs Present:
 ---
 Brig 01
 [description of the brig]
 contents:
-NPCs:
+NPCs Present:
 ---
 Crew Deck
 [description of the crew deck]
 contents:
-NPCs:
+NPCs Present:
 ---
 Mess Hall
 [description of mess hall]
 contents:
-NPCs:
+NPCs Present:
 ---
 Security Station
 [description of security Station]
 contents:
-NPCs:
+NPCs Present:
 ---
 Firing Range
 [description of the Firing Range]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cale Homestead Entrance
 [description of Cale Homestead Entrance]
 contents:
-NPCs:
+NPCs Present:
 ---
 Hall of Victories
 [description of Hall of Victories]
 contents:
-NPCs:
+NPCs Present:
 ---
 Zayr's Residence
 [description of Zayr's Residence]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cale Homestead common area
 [description of Cale Homestead common area]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cale's Great Hall
 [description of Cale's Great Hall]
 contents:
-NPCs:
+NPCs Present:
 ---
 Warrior's Residence
 [description of Warrior's Residence]
 contents:
-NPCs:
+NPCs Present:
 ---
 Commerce Aisle #1
 [description of Commerce Aisle #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Commerce Aisle #2
 [description of Commerce Aisle #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Commerce Aisle #3
 [description of Commerce Aisle #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #1
 [description of Northern Trail #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #2
 [description of Northern Trail #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #3
 [description of Northern Trail #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #4
 [description of Northern Trail #4]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #5
 [description of Northern Trail #5]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #6
 [description of Northern Trail #6]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #7
 [description of Northern Trail #7]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #8
 [description of Northern Trail #8]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #9
 [description of Northern Trail #9]
 contents:
-NPCs:
+NPCs Present:
 ---
 Northern Trail #10
 [description of Northern Trail #10]
 contents:
-NPCs:
+NPCs Present:
 ---
 Southern Trail #1
 [description of Southern Trail #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Southern Trail #2
 [description of Southern Trail #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Southern Trail #3
 [description of Southern Trail #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Southern Trail #4
 [description of Southern Trail #4]
 contents:
-NPCs:
+NPCs Present:
 ---
 Western Trail #1
 [description of Western Trail #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Western Trail #2
 [description of Western Trail #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Western Trail #3
 [description of Western Trail #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Western Trail #4
 [description of Western Trail #4]
 contents:
-NPCs:
+NPCs Present:
 ---
 Black Pits Entrance
 [description of Black Pits Entrance]
 contents:
-NPCs:
+NPCs Present:
 ---
 The Black Pits
 [description of the The Black Pits]
 contents:
-NPCs:
+NPCs Present:
 ---
 Pit #1
 [description of Pit #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Pit #2
 [description of Pit #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Pit #3
 [description of Pit #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Pit #4
 [description of Pit #4]
 contents:
-NPCs:
+NPCs Present:
 ---
 Pit #5
 [description of Pit #5]
 contents:
-NPCs:
+NPCs Present:
 ---
 Hidden Cave
 [description of the hidden cave]
 contents:
-NPCs:
+NPCs Present:
 ---
 Southern Trail Clearing
 [description of Southern Trail Clearing]
 contents:
-NPCs:
+NPCs Present:
 ---
 Eastern Path #1
 [description of Eastern Path #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Eastern Path #2
 [description of Eastern Path #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Eastern Path #3
 [description of Eastern Path #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 grensvayl entrance
 [description OF grensvayl entrance]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall #1
 [description OF Argrox Stall #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall #2
 [description OF Argrox Stall #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall #3
 [description OF Argrox Stall #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall #4
 [description OF Argrox Stall #4]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall field #1
 [description of Argrox Stall field #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall field #2
 [description of Argrox Stall field #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall field #3
 [description of Argrox Stall field #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall field #4
 [description of Argrox Stall field #4]
 contents:
-NPCs:
+NPCs Present:
 ---
 Argrox Stall field #5
 [description of Argrox Stall field #5]
 contents:
-NPCs:
+NPCs Present:
 ---
 field path#1
 [description of field path#1]
 contents:
-NPCs:
+NPCs Present:
 ---
 field path#2
 [description of field path#2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Stables
 [description of the stables]
 contents:
-NPCs:
+NPCs Present:
 ---
 store house 2 #2
 [description of store house 2 #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 store house 2 #1
 [description of store house 2 #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 store house 1 #2
 [description of store house 1 #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 store house 1 #1
 [description of store house 1 #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 grensvayl path
 [description of grensvayl path]
 contents:
-NPCs:
+NPCs Present:
 ---
 grensvayl path
 [description of the grensvayl path]
 contents:
-NPCs:
+NPCs Present:
 ---
 Weapon Smith
 [description of the Weapon Smith shop]
 contents:
-NPCs:
+NPCs Present:
 ---
 grensvayl path
 [description of the grensvayl path]
 contents:
-NPCs:
+NPCs Present:
 ---
 grensvayl path
 [description of the grensvayl path]
 contents:
-NPCs:
+NPCs Present:
 ---
 Lodge
 [description of the lodge]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cave Entrance
 [description of the Cave Entrance]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cave Hallways #1
 [description of the Cave Hallways #1]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cave Hallways #2
 [description of the Cave Hallways #2]
 contents:
-NPCs:
+NPCs Present:
 ---
 Cave Hallways #3
 [description of the Cave Hallways #3]
 contents:
-NPCs:
+NPCs Present:
 ---
 Large Excavation Chamber
 [description of the Large Excavation Chamber]
 contents:
-NPCs:
+NPCs Present:
 ---
 Small Chamber
 [description of the Small Chamber]
 contents:
-NPCs:
+NPCs Present:
 ---
 "Golden Voyage" Shuttle (docked)
 [description of the "Golden Voyage" shuttle (docked)]
 contents:
-NPCs:
+NPCs Present:
 ---
 "Golden Voyage" Shuttle (landed)
 [description of the "Golden Voyage" shuttle (landed)]
 contents:
-NPCs:
+NPCs Present:
 ---
 ===
 Exits:
