@@ -4,7 +4,7 @@ from command_factory import CommandFactory
 from game_state_instance import game_state_instance as gsi
 from jsonproc import dungeon_map
 #from test_build__dungeon import test_dungeon_build as tester
-from test_build__dungeon import test_char_build as char_test
+from test_build__dungeon import test_char_build as char_test, test_dungeon_build
 
 
 

@@ -23,8 +23,10 @@ d6_04 = dice(4)
 def test_dungeon_build():
     """method to build a dungeon for testing and dev."""
     dungeon_name = "Test Dungeon"
-    room_one = Room("Entry Room", "The first room in the test dungeon")
-    room_two = Room("second Room", "The second room of the test dungeon")
+    room_one_date =["Entry Room", "The first room in the test dungeon"]
+    room_one = Room(room_one_date)
+    roomtwo_data = ["second Room", "The second room of the test dungeon"]
+    room_two = Room(roomtwo_data)
     exit1 = Exit("n", room_one, room_two)
     exit2 = Exit("s", room_two, room_one)
     room_one.add_exit(exit1)
@@ -35,11 +37,13 @@ def test_dungeon_build():
     item_one_actions = {"eat": "consume-You eat the apple", "examine": "It's a\
          red apple. It looks really tasty.", "throw": "destroy-You hurl the \
              apple agaisnt the wall. It smashes agaisnt it with a splat."}
-    item_one = item(item_one_stats, item_one_actions)
+    item_one_date = ["Apple", "A red Fuji Apple", 0.2,item_one_actions]
+    item_one = item(item_one_date)
     item_two_stats = ["Spoon", "a metal spoon", .01]
     item_two_actions = {"examine": "examine-The spoon is made of some form of lite metal, perhaps tin.", "throw": "remove-You hurl the \
              spoon agaisnt the wall. It clashes against the wall with a clatter."}
-    item_two = item(item_two_stats, item_two_actions)
+    item_two_data = ["Spoon", "a metal spoon", 0.01,item_two_actions]
+    item_two = item(item_two_data)
     room_one.add_item(item_one)
     room_one.add_item(item_two)
     return test_dungeon

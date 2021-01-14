@@ -4,7 +4,7 @@ import class_exit
 import class_item
 import dungeon
 import character
-import room
+import room as room
 import adventure_loader
 from character import Character as char
 from dungeon import Dungeon as dungeon
@@ -49,37 +49,60 @@ adv_data ={"file name":"test_file.adv", "name":module["name"], "desc":module["de
 
 characters = []
 items = []
-rooms = [module["name"]]
+rooms = []
 exits = []
 dungeon_rooms =[module["name"]]
+if gsi.test_value:
+    print("Dungeon Rooms created")
+    print(dungeon_rooms)
 dungeon_exits = []
 dungeon_npcs = []
 dungeon_items = []
 for value in module['npcs']:
+    print("npcs:")
+    print(value)
     characters.append(char_builder(value))
 for value in module["items"]:
+    print("items:")
+    print(value)
     items.append(item_builder(value))
 for value in module["rooms"]:
-    rooms.append(room_builder(value))
+    print(value)
+    room_value = room_builder(value)
+    room_a=room.Room(room_value)
+    if gsi.test_value:
+        print("Value 1: "+room_value[0])
+        print("Value 2: "+room_value[1])
+        print("Room Name: "+room_a.name)
+        print("Room desc: "+room_a.desc)
+        print(room_a.name)
+    rooms.append(room_a)
 for value in module["exits"]:
     exits.append(exit_builder(value))
 for entry in characters:
     char(entry)
-
 for entry in rooms:
-    dungeon_rooms.append(Room(entry))
-test_room = Room(rooms[1])
-#print(type(test_room))
+    dungeon_rooms.append(entry)
+    if gsi.test_value:
+        print("dungeon_rooms:")
+        print(dungeon_rooms)
+        print("entry")
+        print(entry)
 if gsi.test_value:
     print("Module[\"name\"]:"+str(module["name"])+" of type "+str(type(module["name"])))
     print("dungeon_rooms:"+str(type(dungeon_rooms[1])))
     print("dungeon_rooms[1]:"+str(dungeon_rooms[1]))
+    print(dungeon_rooms)
+    for room in dungeon_rooms:
+        print(type(room))
 
 
 dungeon_map = dungeon(module["name"],dungeon_rooms[1])
 if gsi.test_value:
     print("Dungeon map created")
-for room in dungeon_rooms[1:]:
-    dungeon_map.add_room(room)
+for entry in dungeon_rooms[1:]:
+    if gsi.test_value:
+        print(str(type(entry)))
+    dungeon_map.add_room(entry)
     if gsi.test_value:
         print(room.name+"Room added")
