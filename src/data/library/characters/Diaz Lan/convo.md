@@ -1,12 +1,12 @@
 Diaz Lan Chat File:
 
-1. Aurum
-1.1 The Aurans
+# 1. Aurum
+## 1.1 The Aurans
 The Aurans are a prideful people, but it is a pride that is justified from their perspective my lord. The yare hearty warriors that value loyalty and courage. If you would not consider it too forward my lord, but I see many similarities between the people of Aurum and those few members of the Astartes I have had contact with.
 Aurum itself is an arid jungle world with two major continental masses. The equatorial regions are mainly desert. The population scans and projections say the planet boasts a population of 2 billion, sire. The Aurans maintain a loose alliance of families with a monarch, known as the ‘Caele’, as the central ruler. The present Caele is one Rylus Darkscourge. The Aurums maintain several cities, the largest being the city of Haistand. Haistand is supplied by a farming town, Grensvayl. Two other areas of note are The Crude Pits and the Aspirance.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.2 History of aurum 
+## 1.2 History of aurum 
 History before our glorious Imperium made contact with the planet is murky and largely anecdotal in nature, my lord. Our own forces made contact only a few years ago when a Naval survey team found the planet to be inhabited and could support life. Caele Darkscourge was not entirely enthusiastic about the contact, but he was not out right hostile about it either. More guarded if I may provide my own interpretation of events, my lord. 
 A couple years later, the Ministorum and Administratum sent representatives to the planet in an effort to forge an alliance. They made little headway with their efforts. Indeed, the single validation I can cite from the Administratum’s efforts is that they could confirm that the Aurum’s culture does possess Imperial roots. Many of their local legends bare a resemblance to the God Emperors, blessed he is, and his own efforts during the dark ages. 
 The first true advancement in relations with the planet came when one Captain Mettheos made contact. If I may be truthful sire, ‘forced contact’ would be a better descriptor of his efforts. He lead a naval contingent to the planet and demanded an audience with Darkscourge. If I may be so bold as to say it, my lord, Captain Mettheos was an arrogant braggard and his actions were ill advised but to my utter astonishment, they proved to be the right ones to take. Caele Darkscourge welcomed his party, and housed them for better then a week while holding negotiations with him. 
@@ -14,33 +14,33 @@ Captain Mattheos’ efforts lead to the establishment of The “Aspirance” and
 Learning of this, I attempted garner favor by taking part in their local challenges… um… what we refer to as “combat games” sire. I regret to say that I did not fair well and soon found myself forced to leave the planet for medical treatment, when I was poisoned in such an effort when I attempted to battle one of the local fauna. My return was now a welcome one, my lord and the Caele has consistently rebuffed any efforts I have made to further our interests on Aurum. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.3 Fauna of Aurun
+## 1.3 Fauna of Aurun
 	Diablodon
 I have never seen a Diablodon myself, only heard the stories that Aurums speak of the species, sire but those stories speak of a ferocious creature that stands twice the height of a man… well twice the heigh of a Aurun Man that is, so perhaps three times my height, if the stories are to be taken as factual.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.4.1 Theratryx
+### 1.4.1 Theratryx
 These are large slender riding animals, rather like a grec lizard but with a more angular head and about the size of a horse. The Aurum’s use them as mounts for their warriors. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.4.2 Argrax
+### 1.4.2 Argrax
 Massive beasts. The Aurum rise them as livestock and beasts of burden. They’re a bit like Grox but less temperamental though they can be spooked given the right circumstances. Individually they’re not particularly dangerous should they spook, but in a large number they can be particularly dangerous and destructive.
 Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.4.3 Sky Reavers
+### 1.4.3 Sky Reavers
 They are large--winged reptiles with an inferiority complex. I would recommend keeping your helmet on otherwise you may be forced to contend with their efforts to prove that they are the most dangerous animals around, all of reality to the contrary, my lord.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.5 Locations on Aurum
-1.5.1 Haistand
+### 1.5 Locations on Aurum
+#### 1.5.1 Haistand
 If the Aurum knew what a capital city was, they would consider Haistand to be such a location. From what I’ve been able to gather, in years past it was created to be a market and trade location between the various tribes and families but it has grown to become a center of politics in addition to trade.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.5.2 Grensvayl
+#### 1.5.2 Grensvayl
 Grensvayl is an outlying townshed of the Aurums, a farming centred town. I know little about it personally. It’s in the southern area of the region that Haustand is in, and as such it’s prohibited for outsiders to visit it. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.5.3 The Crude Pits
+### 1.5.3 The Crude Pits
 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
