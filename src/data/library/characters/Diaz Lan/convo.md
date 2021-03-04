@@ -44,84 +44,84 @@ Grensvayl is an outlying townshed of the Aurums, a farming centred town. I know 
 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.5.4 The Aspirance
+### 1.5.4 The Aspirance
 The Aspirance is the unofficial name for the Astra Militarum base that has been deployed to the planet. It’s nothing more then an open field, that serves as a landing zone, flanked by a pair of structures, one is a pre-fab barracks while the other serves has Heth’s office. Father Marius has setup what he comically calls the “Word of Faith Monestary”, a recycled series of supply containers under a thatched roof. I suppose calling it a ‘monestary’ is the only way to differentiate it from the idea of a motor pool, save that he Guard on the planet have no motor pool.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.6 People
-1.6.1 Zayr
+## 1.6 People
+### 1.6.1 Zayr
 Zayr is the ‘shieldmaster’ of Haustand, my lord. It’s somewhere between a city governor and a military command. While the Auans have little in the way of laws, they do occasionally have disputes that arise. The Shieldmaster is responsible for facilitating the resolution of such disputes. He is also in charge of maintaining the standing military force, such as it is my lord. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.6.2 Alkedre Firestalker
+### 1.6.2 Alkedre Firestalker
 Alkedre is a sort of ‘second in command’ to Darkscourge, a post the Aurans call “Sinsar” though that description infers that the system is more official than it really is. Officially, the posts’ primary job is to ensure that the combat trials for succession are fair and or can be safely postponed in times of war.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.6.3 Caele Rylus Darkscourge
+### 1.6.3 Caele Rylus Darkscourge
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.6.4 Sister Rachayel
+### 1.6.4 Sister Rachayel
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.6.5 Archibal Heth
+### 1.6.5 Archibal Heth
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-1.6.6 Father Marius	
+### 1.6.6 Father Marius	
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
 	    Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-2 Horizon’s Pride
-2.1 locations
-2.1.1 Staterooms
+# 2 Horizon’s Pride
+## 2.1 locations
+### 2.1.1 Staterooms
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People]
 
-2.1.2 Brig
+### 2.1.2 Brig
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People]
 
-2.1.3 Bridge
+### 2.1.3 Bridge
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People]
 
-2.1.4 Lan's Study
+#### 2.1.4 Lan's Study
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People]
     
 Items in Lan’s Study
-2.1.4.1 Journal of Balastus J’rem
+#### 2.1.4.1 Journal of Balastus J’rem
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People] [Items in Lan's Study]
 
-2.1.4.2 Helix Gauntlet
+##### 2.1.4.2 Helix Gauntlet
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People] [Items in Lan's Study]
 
-2.1.4.3 Sarcophagus of the Honoured Dead
+##### 2.1.4.3 Sarcophagus of the Honoured Dead
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
     Regarding The Horizon's Pride: [locations]  [People] [Items in Lan's Study]
 
-2.2 Personnel
-2.2.1 Veyoris Akioh
+## 2.2 Personnel
+### 2.2.1 Veyoris Akioh
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
 
-2.2.2 Althea Ciberis
+### 2.2.2 Althea Ciberis
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
 
-2.2.3 Kohl Bennex
+### 2.2.3 Kohl Bennex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dui sit amet egestas aliquet, mi tellus interdum nulla, ac viverra velit nulla nec massa. Vivamus vel nisi vel odio efficitur rhoncus nec non metus. Duis dapibus arcu in urna semper eleifend. Quisque ac leo consectetur, mollis libero vitae, laoreet nisi. Duis interdum vitae tortor id vehicula. Aenean eu luctus dolor. Sed orci sapien, ultrices eu diam vel, tincidunt iaculis nulla. Vestibulum placerat lorem eu venenatis eleifend. Pellentesque aliquam scelerisque purus, id venenatis leo bibendum ut. Integer dolor nibh, congue vitae nibh sed, dictum sodales mi. Mauris semper pretium neque vel egestas. Quisque id orci ut purus tincidunt venenatis ac ornare lacus. Vestibulum luctus vitae nisl non sodales. 
 Nam interdum velit elit. Vestibulum vehicula ac nunc pellentesque porttitor. Duis vel erat et eros congue consectetur sed non tellus. Morbi facilisis est purus, a ornare arcu aliquam sed. Nullam eu tortor ex. Nam dignissim augue at orci varius faucibus. Integer felis sapien, tempor eleifend nunc quis, varius eleifend diam. Praesent ut convallis purus, a consectetur ante. Vivamus quis arcu aliquet, rutrum eros ut, rhoncus leo. Curabitur eros enim, ultrices iaculis luctus sit amet, ornare id elit. Nullam fringilla augue mauris, ac faucibus massa mattis a. 
