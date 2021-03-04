@@ -7,6 +7,7 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 # Current status
 **2021-3-04:**
 Have bit of a minor update today. One of the things I want to include in the finished product is a system to allow an adventure to be populated by multiple generic NPCs, with out having to commit additional space to spelling out each NPC in the adventure module it self. Basically, I want people to be able to do something like indicating that a room has 10 random female-NPCs in it, and when the adventure module is first loaded it will generate 10 random female NPCs. To that end I built a generalized random character generator in the character module. 
+![screen shot showing the character generator working](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/files/screenshots/Screenshot%202021-03-04%20021534.png)
 
 I've also built a series of screen mock ups. Mainly just to get the ideas out of my head and into something a bit more referenciable to others.
 
