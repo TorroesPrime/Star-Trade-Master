@@ -3,8 +3,23 @@ import random
 #import class_item
 from filemedia import inv_header
 from tools import spacer
+import xlrd
+workbook = xlrd.open_workbook("G:\\Documents\\projects\\Programming Projects\\Python Projects\\Rogue Trader Game\\python src\\names.xlsx")
+male_names_sheet = "human male names"
+female_names_sheet = "human female names"
+last_names = "human last names"
+name_source =[male_names_sheet,female_names_sheet,last_names]
+dw= "Death World"
+nb="Noble Born World"
+iw="Imperial World"
+hw="Hive World"
+w="Forge World"
+vb="Void Born"
+world_type_names = ["Death World","Noble Born World","Imperial World","Hive World","Forge World","Void Born"]
+
 class Character():
     def __init__(self,stats):
+        """defines a character object"""
         self.name = stats[0]
         self.char_stats = {
             "weapon skill" : stats[1],
@@ -28,7 +43,9 @@ class Character():
         self.primary_weapon = None
         self.inventory = []
         self.max_weight = int(self.char_stats.get("strength"))*3
+
     def add_item(self, item):
+        """adds supplied item to character inventory."""
         total_weight = 0
         for item in self.inventory:
             total_weight = total_weight + item.weight
@@ -36,18 +53,23 @@ class Character():
             print("You are not strong enough to carry all of that.")
         else:
             self.inventory.append(item)
+
     def list_inventory(self):
+        """displays character inventory"""
         print(inv_header)
         for item in self.inventory:
             print(spacer(item.name,25)+"|"+spacer(str(item.weight),12)+"|\n")
 
     def arm(self, weapon):
+        """sets supplied weapon as characters weapon."""
         self.primary_weapon=weapon
     
     def addxp(self,value):
+        """adds xp to the character's earned_xp field."""
         self.expierence = self.expierence + value
 
     def character_sheet(self):
+        """displays character sheet including stats, traits, talents and identification information."""
         print(f"                              {fm.char_name} {self.name}                              ")
         print(f"                              {fm.total_xp} {self.expierence}                              ")
         print(f"{fm.core_chars}")
@@ -68,6 +90,7 @@ class Character():
         return None
 
     def print_char(self,char):
+        """modifies supplied characteristics to fill up 2 spaces. Used in character__sheet()"""
         if len(str(char)) == 2:
             char = str(char)
         else:
@@ -75,42 +98,83 @@ class Character():
         return char
     
     def add_skill(self,skill):
+        """adds a skill to the character's skills"""
         self.skills.append(skill)
 
     def attack_melee(self,target):
+        """method used to execute a melee attack against a supplied target"""
         if self.primary_weapon == None:
             attack_str = self.char_stats["strength"]
         else:
             attack_str = self.primary_weapon.strength
-        
 
-def characteristic_gen():
-    dice_1 = random.randint(1,9)
-    dice_2 = random.randint(1,9)
-    class_bonus = 25
-    value = dice_1+dice_2+class_bonus
-    return value
+def select_name(gender = None):
+    """randomly selects a name. Can be predetermined as a male or female name"""
+    first_name_source = None
+    if gender == "male":
+        first_name_source = name_source[0]
+    elif gender == "female":
+        first_name_source = name_source[1]
+    else:
+        choice_value = random.randint(0,1)
+        first_name_source = name_source[choice_value]
+    first_name_sheet = workbook.sheet_by_name(first_name_source)
+    row = 0
+    col = 0
+    total_rows = first_name_sheet.nrows
+    names = []
+    while row <= total_rows-1:
+       names.append(first_name_sheet.cell_value(row,col).strip())
+       row = row +1
+    return random.choice(names)
 
-def home_world_select(home_world_type):
-    homeworld = ""
-    if home_world_type.lower() == "death world":
-        homeworld = random.choice(deathWorldList)
-    elif home_world_type.lower() == "noble born":
-        homeworld = random.choice(deathWorldList)
-    elif home_world_type.lower() == "imperial world":
-        homeworld = random.choice(deathWorldList)
-    elif home_world_type.lower() == "hive world":
-        homeworld = random.choice(deathWorldList)
-    elif home_world_type.lower() == "forge world":
-        homeworld = random.choice(deathWorldList)
-
-
-def character_gen_f():
-    character_data = []
-    for stat in range(9):
-        character_data.append(characteristic_gen())
+def generate_characteristics(bonus=None, char_class = None):  
+    """randomly generates values for character stats"""
+    stats = []
+    for stat in range(10):
+        stats.append(random.randint(2,20)+25) 
+    return stats
     
-    for stat in character_data:
-        print(stat)
+def generate_gender():
+    """randomly selects a gender for a character"""
+    gender = ["male","female"]
+    return random.choice(gender)
+
+def select_homeworld(world_type = None):    
+    """randomly selects a homeworld name. Can select a particular type of home world"""
+    home_world_names_source = workbook.sheet_by_name(random.choice(world_type_names))
+    home_worlds = []
+    row = 0
+    col = 0
+    total_rows = home_world_names_source.nrows
+    names = []
+    while row <= total_rows-1:
+        names.append(home_world_names_source.cell_value(row,col))
+        row = row +1
+    return random.choice(names)
+
+def generate_wounds(bonus=None):
+    """Generates a random integer between 10 and 25"""
+    return random.randint(10,25)
+
+def generate_random_char():
+    """generates one random character"""
+    gender = generate_gender()
+    name = select_name(gender)
+    stats = generate_characteristics()
+    home_world = select_homeworld()
+    motive = "Generic motivation"
+    wounds = generate_wounds()
+    #generate wounds
+    character_stats = [name]
+    for stat in stats:
+        character_stats.append(stat)
+    character_stats.append(home_world)
+    character_stats.append(motive)
+    character_stats.append(gender)
+    character_stats.append(wounds)
+    created_character = Character(character_stats)
+    return created_character
+ 
 
 #character_gen_f()

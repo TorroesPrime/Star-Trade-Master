@@ -10,7 +10,7 @@ class GameState():
         self.save_file_ext = ".sav"
         self.current_room_leader = "Current room: "
         self.adventurers_current_room = None
-        self.test_value = True
+        self.test_value = False
         self.player_character = None
         self.characters = []
         self.actions = []
@@ -42,7 +42,7 @@ class GameState():
         self.characters.append(character)
     def set_test(self):
         """set's test status"""
-        if self.test_value:
+        if self.test_value== True:
             self.test_value = False
         else:
             self.test_value = True
