@@ -15,19 +15,19 @@ Learning of this, I attempted garner favor by taking part in their local challen
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
 ## 1.3 Fauna of Aurun
-	Diablodon
+### 1.3.1 Diablodon
 I have never seen a Diablodon myself, only heard the stories that Aurums speak of the species, sire but those stories speak of a ferocious creature that stands twice the height of a man… well twice the heigh of a Aurun Man that is, so perhaps three times my height, if the stories are to be taken as factual.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-### 1.4.1 Theratryx
+### 1.3.2 Theratryx
 These are large slender riding animals, rather like a grec lizard but with a more angular head and about the size of a horse. The Aurum’s use them as mounts for their warriors. 
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-### 1.4.2 Argrax
+### 1.3.3 Argrax
 Massive beasts. The Aurum rise them as livestock and beasts of burden. They’re a bit like Grox but less temperamental though they can be spooked given the right circumstances. Individually they’re not particularly dangerous should they spook, but in a large number they can be particularly dangerous and destructive.
 Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
-### 1.4.3 Sky Reavers
+### 1.3.4 Sky Reavers
 They are large--winged reptiles with an inferiority complex. I would recommend keeping your helmet on otherwise you may be forced to contend with their efforts to prove that they are the most dangerous animals around, all of reality to the contrary, my lord.
         Regarding Aurum: [locations]  [Fauna]  [History]  [People]
 
