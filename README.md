@@ -5,18 +5,44 @@ This project is an outgrowth of a Zork clone I helped build for class. Using a C
 * Primary Programming language: Python 3.8
 
 # Current status
+**2021-3-04:**
+Have bit of a minor update today. One of the things I want to include in the finished product is a system to allow an adventure to be populated by multiple generic NPCs, with out having to commit additional space to spelling out each NPC in the adventure module it self. Basically, I want people to be able to do something like indicating that a room has 10 random female-NPCs in it, and when the adventure module is first loaded it will generate 10 random female NPCs. To that end I built a generalized random character generator in the character module. 
+
+I've also built a series of screen mock ups. Mainly just to get the ideas out of my head and into something a bit more referenciable to others.
+
+So first we have the main screen:
+![Screen mock up of main menu](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/design/screen_main-menu.png)
+
+This would be the screen displaying the availible characters.
+![Screen mock up of character listings](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/design/screen_select-char.png)
+
+Here we have a mockup of the 'View Character' Screen
+![Screen mock up of 'view character' screen](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/design/screen_view-character.png)
+
+Here we have a mockup of the 'Resume Adventure' Screen
+![Screen mock up of 'resume adventure' screen](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/design/screen_resume-adventure.png)
+
+Here we have a mockup of the 'Adventure selection' Screen
+![Screen mock up of 'adventure selection' screen](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/design/screen_adventure-selection.png)
+
+When you launch an adventure you would be given the option to import an availible character to use as the player character in that adventure. Thus we have a 'Select Character' Screen
+![Screen mock up of 'Select character' screen](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/design/screen_resume-adventure.png)
+
+
+
+
 **2021-1-08:**
 Hey, believe it or not, I haven’t abandoned this project! I know it’s been a few months since I was able to update. This last semester of class was particularly demanding and really left me in a bad place when it came to creative energy and motivation. There were days where I looked at my collection of Role play game rule books and felt pangs of guilt for not working on this project, only to be reminded I still had assignments for class I hadn’t finished. Oh and Covid has been a thing. But I’ve been on winter break between semesters, and that means I’ve been able to get some more work in on it. There are three things I’ve worked on most recently.
-The first thing is the <help> command. 
+The first thing is the help command. 
 ![commands](https://raw.githubusercontent.com/TorroesPrime/Star-Trade-Master/master/files/screensnip-01-08-2021.png)
- 
-You can see from the display snippet above that the `help` command shows information for the move, save, take, look, and inventory commands. These are the basic commands I intend to get working for version .01 of the system. 
 
-Future plans for the `help` command include allowing the player to use the `help` command in conjunction with a specific command. So you could do `help take` and get a more detailed explanation of the `take` and `take all` commands.
+You can see from the display snippet above that the help command shows information for the move, save, take, look, and inventory commands. These are the basic commands I intend to get working for version .01 of the system. 
 
-The second thing I’ve been working on is the `inventory` command. It’s not finished yet, but it matches the example output of the help command which means it’s functional.
+Future plans for the <help> command include allowing the player to use the <help> command in conjunction with a specific command. So you could do <help take> and get a more detailed explanation of the <take> and <take all> commands.
 
-Finally I’ve gotten the `take` command working. As of right now you can only take single items, but the next thing is getting the `take all` command to work. 
+The second thing I’ve been working on is the <inventory> command. It’s not finished yet, but it matches the example output of the help command which means it’s functional.
+
+Finally I’ve gotten the <take> command working. As of right now you can only take single items, but the next thing is getting the <take all> command to work. 
 
 **2020-8-23:**
 working on the character class today. For the moment I'm using a 9 stat character class model based on the Warhammer 40,000 role play games. Very basic all told right now, but I've got the fundimental characteristics setup and I have a start on displaying the player characters' stats view a "view stats" command.
